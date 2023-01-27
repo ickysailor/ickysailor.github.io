@@ -1,63 +1,52 @@
-<!DOCT TYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>eyes the iii</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=chrome">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>icky sailor</title>
 	<link rel="shortcut icon" type="image" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>	
 </head>
 <body>
-
-<nav>
-  <button class="dropdown-btn">Navigation</button>
-  <div class="dropdown-container">
-    <a href="colors.html">Eye Color</a><br/>
-    <a href="tears.html">Tears</a><br/>
-    <a href="REM.html">REM</a><br/>
-  </div>
-  <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
-</script>
-</nav>
-
-<aside>
-text
-
-<footer>
-Copyright © Example Website
-</footer></aside>
-
-<div class="ovrflwcntrl">
-<br/>
+	<nav>
+  <ul class="nav nav-pills">
+	  <li class="nav-item dropdown"> 
+		  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">open me</a>
+	    <div class="dropdown-menu"> 
+			<a class="dropdown-item" href="index.html">About</a>
+		  <div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="personalwork.html">Personal Work</a>
+	      <div class="dropdown-divider"></div>
+	      <a class="dropdown-item" href="portfolio.html">portfolio</a>
 </div>
-
+    </li>
+  </ul>
+</nav>
+<aside>
+	<img src="images/beach.png" width="345" height="540" alt=""/>
+	<img src="images/sunstripes.png" width="371" height="540" alt=""/>
+	<img src="images/matbby2.png" width="382" height="540" alt=""/>
+</aside>
 <header>
-<a href="I.html" class="hdr1">eyes eyes eyes</a>
+	<a href="I.html" class="hdr1">icky sailor</a>
 </header>
-
 <content>
-<p class="bdy">Eyes are organs of the visual system. They provide organisms with vision, the ability to receive and process visual detail, as well as enabling several photo response functions that are independent of vision. Eyes detect light and convert it into electro-chemical impulses in neurons. In higher organisms, the eye is a complex optical system which collects light from the surrounding environment, regulates its intensity through a diaphragm, focuses it through an adjustable assembly of lenses to form an image, converts this image into a set of electrical signals, and transmits these signals to the brain through complex neural pathways that connect the eye via the optic nerve to the visual cortex and other areas of the brain. Eyes with resolving power have come in ten fundamentally different forms, and 96% of animal species possess a complex optical system.[1] Image-resolving eyes are present in molluscs, chordates and arthropods.</p>
-
-<p class="bdy">The simplest "eyes", such as those in microorganisms, do nothing but detect whether the surroundings are light or dark, which is sufficient for the entrainment of circadian rhythms.[3] From more complex eyes, retinal photosensitive ganglion cells send signals along the retinohypothalamic tract to the suprachiasmatic nuclei to effect circadian adjustment and to the pretectal area to control the pupillary light reflex.</p>
-
-<p class="bdy">Complex eyes can distinguish shapes and colours. The visual fields of many organisms, especially predators, involve large areas of binocular vision to improve depth perception. In other organisms, eyes are located so as to maximise the field of view, such as in rabbits and horses, which have monocular vision.</p>
-
-
-<p class="bdy">The first proto-eyes evolved among animals 600 million years ago about the time of the Cambrian explosion.[4] The last common ancestor of animals possessed the biochemical toolkit necessary for vision, and more advanced eyes have evolved in 96% of animal species in six of the ~35[a] main phyla.[1] In most vertebrates and some molluscs, the eye works by allowing light to enter and project onto a light-sensitive panel of cells, known as the retina, at the rear of the eye. The cone cells (for colour) and the rod cells (for low-light contrasts) in the retina detect and convert light into neural signals for vision. The visual signals are then transmitted to the brain via the optic nerve. Such eyes are typically roughly spherical, filled with a transparent gel-like substance called the vitreous humour, with a focusing lens and often an iris; the relaxing or tightening of the muscles around the iris change the size of the pupil, thereby regulating the amount of light that enters the eye,[5] and reducing aberrations when there is enough light.[6] The eyes of most cephalopods, fish, amphibians and snakes have fixed lens shapes, and focusing vision is achieved by telescoping the lens—similar to how a camera focuses</p>
-
+	<center><p class="bdy">
+			Nikki is a 26 year old artist and graphic designer from Maryland, currently located in Oregon.	</p>
+		<p class="skl">
+		Skills include Adobe Creative Cloud (Photoshop, Illustrator, InDesign, Dreamweaver), HTML/CSS, Typography, Design, Branding & Visual Identity <br> </p>
+		<p class="bdy">
+		<a href="http://www.instagram.com/ickysailor"><img src="images/instagram.png" alt="instagram"></a>
+		<a href="http://www.twitter.com/ickysailor"><img src="images/twitter.png" alt="instagram"></a>
+		<a href="https://www.linkedin.com/in/nikki-benningfield-849339260/"><img src="images/linkedin.png" alt="instagram"></a><br>
+		or email me at <a href="mailto:ickysailor@gmail.com">ickysailor@gmail.com</a>
+			</p>
+</center>
 </content>
+	<footer></footer>
 </body>
 </html>

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Goldoni";
+    src: url('goldoni.woff2') format('woff2'),
+         url('goldoni.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "notcouriersansregular";
+    src: url('notcouriersansregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+	}
+@font-face {
+    font-family: "Malnorsans";
+    src: url("malnorsansdemo-thin.woff2") format("woff2"),
+         url("malnorsansdemo-thin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+	background-color: #ffffff;
+	text-transform: uppercase;
+	font-family: "notcouriersansregular";
+}
+nav {
+	position: fixed;
+	z-index: 2;
+	margin-top: 1rem;
+	margin-left: 25px;
+	background-color: #fff;
+	font-family: "notcouriersansregular";
+}
+aside {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 100px;
+}
+header {
+	position: fixed;
+	z-index: 2;
+	margin-left: 27.75%;
+	margin-top: 32px;
+	width: 65%;
+	height: 60px;
+	text-align: right;
+	font-size: 60px;
+	font-family: "Goldoni";
+	color: #ff3e3e;
+}
+content {
+	position: absolute;
+	margin-left: 72%;
+	margin-top: 100px;
+	padding: 7px;
+	width: 385px;
+	height: 540px;
+	background-color: #ffffff;
+ 	border: 4px solid #75b9a6;
+	border-block: 6px solid #ffaf26;
+	font-size: 22px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+img {
+ padding-left: 18px;
+ vertical-align: middle;
+ border-style: none;
+}
+footer {
+	position: fixed;
+	margin-top: 710px;
+	left: 0;
+	width: 101%;
+	height: 10%;
+	background-color: #a5f4ec;
+	overflow: hidden;
+}
+/* TEXT FORMATTING */
+a {
+	font-size: 16px;
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+a.hdr1 {
+	z-index: 3;
+	line-height: 1.5;
+	margin-right: -58px;
+	margin-top: -5px;
+	color: #ff3e3e;
+	background-color: transparent;
+	font-weight: 100;
+	font-size: 60px;
+}
+p.bdy {
+	font-family: monospace;
+	font-size: 16px;
+	text-indent: 15px;
+	text-transform: none;
+}
+p.bdy a {
+	font-weight: 600;
+	color: #595f5d;
+}
+p.bdy a:hover {
+	color: #75b9a6;
+}
+p.bdy img {
+  max-width: 25%;
+  margin-left: -10px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+p.skl {
+	font-family: monospace;
+	font-size: 14px;
+	text-transform: none;
+	padding: 5px;
+}
