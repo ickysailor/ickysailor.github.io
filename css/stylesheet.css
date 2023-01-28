@@ -116,7 +116,7 @@ a.header {
 		font-weight: 100;
 		font-size: 60px;
 	}
-header a:visited {
+a.header:visited {
 		color: #ff3e3e;
 	}
 p.bdy {
