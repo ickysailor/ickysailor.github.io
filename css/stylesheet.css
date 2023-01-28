@@ -117,7 +117,7 @@ a.header {
 		font-size: 60px;
 	}
 a.header:visited {
-		color: #ff3e3e;
+		color: #ff3e3e!important;
 	}
 p.bdy {
 		font-family: monospace;
