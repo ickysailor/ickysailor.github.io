@@ -33,19 +33,21 @@ body {
 }
 nav {
 	position: fixed;
-	z-index: 2;
+	z-index: 3;
 	margin-top: 1rem;
 	margin-left: 25px;
 	background-color: #fff;
 	font-family: "notcouriersansregular";
 }
 content {
+	z-index: 2;
 	position: static;
 	padding: 1%;
 	background-color: #ffffff;
 	font-size: 22px;
 }
 object {
+  z-index: 2;
   position: fixed;
   margin-top: -130px;
   min-width: 98.5%;
