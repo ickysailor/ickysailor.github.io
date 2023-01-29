@@ -199,13 +199,14 @@ a {
 		html {
 		font-size: 1.75vh;
 }
-		content {
-		position: relative;		
+		content {	
+		position: absolute;
+		float: auto;;
 }
 		object {
-		margin-top: -210px;
-		margin-left: -210px;
-		width: 140%;
+			margin-top: -60px;
+			right: 0%;
+			width: 200%;
 }
 		nav {
 			position: absolute;	
@@ -214,5 +215,6 @@ a {
 			padding-bottom: 2%;
 			margin-left: 0;
 			background-color: transparent!important;
+			z-index: 4!important;
 }
 }
