@@ -49,7 +49,7 @@ content {
 object {
   z-index: 2;
   position: fixed;
-  margin-top: -130px;
+  margin-top: -150px;
   min-width: 98.5%;
   min-height: 115%;
 }
