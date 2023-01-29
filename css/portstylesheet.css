@@ -208,12 +208,11 @@ a {
 		width: 140%;
 }
 		nav {
-			position: relative;	
+			position: absolute;	
 			float: auto;
 			padding-top: 2%;
 			padding-bottom: 2%;
 			margin-left: 0;
-			overflow: auto;
 			background-color: transparent!important;
 }
 }
