@@ -208,8 +208,6 @@ hr {
 			margin-top: -100px;
 			margin-right: 0px;
 			padding-bottom: 42%;
-}
-		header a {
 			font-size: 7vw!important;
 			line-height: 0.5;
 }
@@ -221,14 +219,11 @@ hr {
 			z-index: 1;
 } 
 }
-/* 			================		SKIPPING 1601-2000 FOR DEFAULTS 		================	*/	
+/* 			================		SKIPPING 1551-2000 FOR DEFAULTS 		================	*/	
 /* 			================		LARGE MEDIA  		================	*/					
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
 		html {
-			font-size: 3vw;
-}
-	.bdy {
-			font-size: 2vw !important;
+			font-size: 2vw;
 }
 		aside {
 			position: absolute;
@@ -253,7 +248,11 @@ hr {
 			height: auto;
 			border: 15px solid #75b9a6;
 			border-block: 12px solid #ffaf26;
+			
 }
+	.bdy {
+		font-size: 1.25vw!important;
+	}
 			.icn {
 		max-width: 50%;
 }
@@ -272,9 +271,7 @@ hr {
 			width: 100%;
 			margin-top: -85px;
 			padding-bottom: 42%;
-}
-		header a {
-			font-size: 7vw!important;
+			font-size: 6vw!important;
 			line-height: 0.5;
 }
 		footer {
@@ -283,16 +280,16 @@ hr {
 }
 	
 /*			================		MEDIUM MEDIA  		================	*/
-@media screen and (min-width: 702px) and (max-width: 1200px) {
+@media screen and (min-width: 702px) and (max-width: 1400px) {
 		html {
-			font-size: 3.5vw;
+			font-size: 2vw;
 }
 	.bdy {
 			font-size: 2vw !important;
 }
 		aside {
 			position: absolute;
-			top: 5%;
+			top: 2%;
 			float: left;
 			margin-left: 0;
 			max-width: 58%;
@@ -310,7 +307,8 @@ hr {
 			margin: 0;
 			float: auto;
 			width: 100%;
-			padding: 55px 35px 35px 35px;
+			padding: 3%;
+			overflow: hidden;
 }
 			.icn {
 		max-width: 50%;
@@ -326,13 +324,11 @@ hr {
 		header {
 			position: relative;
 			float: right;
-			margin-top: 16.5%;
-			padding-top: 2%;
-			padding-bottom: 0.5%;
-}
-		header a {
-			font-size: 15vw!important;
-			line-height: 0.5;
+			left: 1%;
+			margin-top: 29%;
+			padding: 2% 0 2% 0;
+			font-size: 8vw!important;
+			line-height: 1;
 }
 		footer {
 			display: none;
@@ -378,8 +374,6 @@ hr {
 			padding-top: 2%;
 			padding-bottom: 0;
 			width: 100%;
-}
-		header a {
 			font-size: 15vw;
 }
 		footer {
