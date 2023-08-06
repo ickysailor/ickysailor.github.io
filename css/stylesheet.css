@@ -20,6 +20,13 @@
 		font-weight: normal;
 		font-style: normal;
 }
+@font-face {
+    font-family: "amikoregular";
+    src: url('Amiko-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 html {
 	  font-family: sans-serif;
 	  line-height: 1.15;
@@ -117,13 +124,13 @@ a.header {
 		font-size: 60px;
 	}
 p.bdy {
-		font-family: monospace;
+		font-family: "amikoregular";
 		font-size: 16px;
 		text-indent: 15px;
 		text-transform: none;
 	}
 p.icn {
-		font-family: monospace;
+		font-family: "amikoregular";
 		font-size: 16px;
 	}
 p.icn a {
@@ -137,11 +144,8 @@ p.icn a:hover {
 		font-weight: 600;
 	}
 p.icn img {
-	  max-width: 25%;
-	  margin-left: -24px;
-	  margin-top: 40px;
-	  margin-bottom: 15px;
-	  padding-left: 18px;
+	  max-width: 73px;
+	  padding: 4px 4px 20px 4px;
 	  vertical-align: middle;
 	  border-style: none;
 	}
@@ -288,11 +292,13 @@ hr {
 			font-size: 2vw !important;
 }
 		aside {
-			position: absolute;
+			position: relative;
 			top: 2%;
-			float: left;
-			margin-left: 0;
-			max-width: 58%;
+			align: center;
+			margin-top:  10px;
+			margin-left: 25%;
+			max-width: 48%;
+			text-align: center;
 			height: auto;
 }
 		.mobilemd {
@@ -325,7 +331,7 @@ hr {
 			position: relative;
 			float: right;
 			left: 1%;
-			margin-top: 29%;
+			margin-top: 6%;
 			padding: 2% 0 2% 0;
 			font-size: 8vw!important;
 			line-height: 1;

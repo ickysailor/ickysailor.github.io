@@ -32,12 +32,12 @@ body {
     overflow: hidden;
 }
 nav {
-	position: fixed;
-	z-index: 3;
-	margin-top: 1rem;
-	margin-left: 25px;
-	background-color: #fff;
-	font-family: "notcouriersansregular";
+		position: fixed;
+		z-index: 4;
+		margin-top: 1%;
+		margin-left: 2%;
+		background-color: transparent;
+		font-family: "notcouriersansregular";
 }
 content {
 	z-index: 2;
