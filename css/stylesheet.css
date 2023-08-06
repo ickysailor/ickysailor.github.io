@@ -11,8 +11,9 @@
 		src: url('notcouriersansregular.woff') format('woff');
 		font-weight: normal;
 		font-style: normal;
-
 }
+
+
 @font-face {
 		font-family: "Malnorsans";
 		src: url("malnorsansdemo-thin.woff2") format("woff2"),
