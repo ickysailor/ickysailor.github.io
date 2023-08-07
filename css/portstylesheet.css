@@ -84,7 +84,7 @@ a {
 			object {
 		 	 z-index: 2;
  			 position: fixed;
-			 margin-top: -40%!important;
+			 margin-top: -80%!important;
 			 min-width: 150%;
 			 overflow: hidden!important;
 }
