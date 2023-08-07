@@ -101,7 +101,7 @@ a {
 }
 }
 /*			================		MEDIUM MEDIA  		================	*/
-@media screen and (min-width: 702px) and (max-width: 1400px) {
+@media screen and /*(min-width: 702px)*/(min-width: 1px) and (max-width: 1400px) {
 		html {
 			font-size: 2vw;
 }
