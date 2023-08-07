@@ -899,13 +899,13 @@ ul ol {
   color: #fff;
 }
 
-@media screen and (min-width: 702px) and (max-width: 1550px) {
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
 		  min-width: 13rem!important;
 		  max-width: 13rem!important; }
 	
-@media screen and (min-width: 1px) and (max-width: 701px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
-		  min-width: 800%!important;
-		  max-width: 800%!important; }
+		  min-width: 200%!important;
+		  max-width: 200%!important; }
 	} }
