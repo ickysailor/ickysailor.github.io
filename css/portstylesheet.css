@@ -140,14 +140,14 @@ a {
 		content {	
 		position: absolute;
 		float: auto; 
-		margin-left: -2000px;
+		padding-left: -2000px;
 	}
 	
 			object {
 		 	 z-index: 2;
  			 position: fixed;
 			 margin-top: -300px!important;
-				margin-left: -2000px;
+				padding-left: -2000px;
 			 width: 200%;
 			overflow: hidden!important;;
 }
