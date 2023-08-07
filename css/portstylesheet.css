@@ -140,6 +140,7 @@ a {
 		content {	
 		position: absolute;
 		float: auto; 
+			text-align: right;
 	}
 	
 			object {
@@ -147,8 +148,7 @@ a {
  			 position: fixed;
 			 margin-top: -300px!important;
 			 width: 200%;
-			overflow: hidden!important;
-			padding-left: 200px;
+			overflow: hidden!important;;
 }
 }
 		nav {
