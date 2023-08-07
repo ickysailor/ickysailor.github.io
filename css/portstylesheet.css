@@ -140,7 +140,7 @@ a {
 		content {	
 		position: absolute;
 		float: auto; 
-	   margin-left: -10px!important;
+	   margin-left: 0px!important;
 	}
 	
 			object {
