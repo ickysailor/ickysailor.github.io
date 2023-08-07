@@ -64,54 +64,20 @@ a {
 * {
   box-sizing: border-box;
 }
-/* 			================		LARGE MEDIA  		================					
-@media screen and (min-width: 1501px) and (max-width: 1550px) {
-		html {
-			font-size: 2vw;
-}
-		aside {
-			position: absolute;
-			display: block;
-			margin: auto;
-			top: 20%;
-			width: 100%;
-			height: auto;
-}
-		content {	
-			display: block;
-			position: relative;	
-			margin-top: -20px;
-			float: auto;
-			width: 100%;
-			height: auto;	
-}
-		object {
-	  z-index: 2;
- 	 position: fixed;
-	 margin-top: -235px!important;
-		width: 100%;
-}
-		nav {
-			position: relative;	
-			float: auto;
-			margin-top: -15px;
-			margin-left: 0;
-			padding-top: 2%;
-			padding-bottom: 1%;
-}
-}*/	
-/*			================		MEDIUM MEDIA  		================	*/
-@media screen and /*(min-width: 702px)*/(min-width: 1px) and (max-width: 1550px) {
+
+/*			================		 MEDIA  		================	*/
+@media screen and (min-width: 1px) and (max-width: 1550px) {
 		html {
 			font-size: 2vw;
 }
 		content {	
 			display: block;
 			position: relative;	
-  			margin-top: 8%;
+  			margin-top: 20%;
 			margin-left: -15%;
 			float: auto;
 			width: 180%;
+			min-height: 200%;
 			padding: 5% 0% 10% 0%;
 			overflow: hidden!important;
 }
@@ -133,34 +99,3 @@ a {
 			min-width: 100%;
 }
 }
-/*			================		SMALL MEDIA  		================						
-@media screen and (min-width: 1px) and (max-width: 702px) {
-		html {
-		font-size: 1.75vh;
-}
-		content {	
-		position: absolute;
-		float: auto; 
-		padding-left: -2000px;
-	}
-	
-			object {
-		 	 z-index: 2;
- 			 position: fixed;
-			 margin-top: -300px!important;
-				padding-left: -2000px;
-			 width: 200%;
-			overflow: hidden!important;;
-}
-}
-		nav {
-			position: absolute;	
-			float: auto;
-			padding-top: 2%;
-			padding-bottom: 2%;
-			margin-left: 20px;
-			margin-top: 20px;
-			background-color: transparent!important;
-			z-index: 4!important;
-
-}*/
