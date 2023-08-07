@@ -109,9 +109,9 @@ a {
 			display: block;
 			position: relative;	
   			margin-top: 0%;
-			margin-left: -20%;
+			margin-left: -18%;
 			float: auto;
-			width: 200%;
+			width: 180%;
 			padding: 5% 0% 10% 0%;
 			overflow: hidden!important;
 }
@@ -120,7 +120,7 @@ a {
  			 position: fixed;
 			 margin-top: -20%!important;
 			 min-width: 150%;
-			 min-height: 115%;
+			 min-height: 200%;
 			 overflow: hidden!important;
 }
 		nav {
