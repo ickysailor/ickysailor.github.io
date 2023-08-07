@@ -108,8 +108,8 @@ a {
 		content {	
 			display: block;
 			position: relative;	
-  			margin-top: -10%;
-			margin-left: -25%;
+  			margin-top: 0%;
+			margin-left: -20%;
 			float: auto;
 			width: 200%;
 			padding: 5% 0% 10% 0%;
@@ -118,7 +118,7 @@ a {
 			object {
 		 	 z-index: 2;
  			 position: fixed;
-			 margin-top: -100px!important;
+			 margin-top: -20%!important;
 			 min-width: 150%;
 			 min-height: 115%;
 			 overflow: hidden!important;
