@@ -65,7 +65,7 @@ a {
   box-sizing: border-box;
 }
 /* 			================		LARGE MEDIA  		================	*/					
-@media screen and (min-width: 1400px) and (max-width: 1550px) {
+@media screen and (min-width: 1401px) and (max-width: 1550px) {
 		html {
 			font-size: 2vw;
 }
