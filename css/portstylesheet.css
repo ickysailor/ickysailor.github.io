@@ -109,10 +109,9 @@ a {
 			display: block;
 			position: relative;	
 			margin-top: -20px;
-			margin-left: -900px!important;
 			float: auto;
 			width: 200%;
-			padding: 3%;
+			padding: 3% 0% 3% 0%;
 			overflow: hidden!important;
 }
 			object {
