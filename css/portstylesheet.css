@@ -132,7 +132,7 @@ a {
 			min-width: 100%;
 }
 }
-/*			================		SMALL MEDIA  		================						*/
+/*			================		SMALL MEDIA  		================						
 @media screen and (min-width: 1px) and (max-width: 702px) {
 		html {
 		font-size: 1.75vh;
@@ -162,4 +162,4 @@ a {
 			background-color: transparent!important;
 			z-index: 4!important;
 
-}
+}*/
