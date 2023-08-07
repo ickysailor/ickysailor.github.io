@@ -118,8 +118,9 @@ a {
 		 	 z-index: 2;
  			 position: fixed;
 			 margin-top: -300px!important;
-			min-width: 200%;
-			overflow: hidden!important;
+			 min-width: 200%;
+			 min-height: 115%;
+			 overflow: hidden!important;
 }
 		nav {
 			position: relative;	
