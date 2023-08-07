@@ -77,7 +77,7 @@ a {
 			margin-left: -18%;
 			float: auto;
 			width: 100%;
-/*			min-height: 200%;*/
+			min-height: 1000%;
 			padding: 5% 0% 10% 0%;
 			overflow: hidden!important;
 }
@@ -86,7 +86,6 @@ a {
  			 position: fixed;
 			 margin-top: -40%!important;
 			 min-width: 150%;
-			 min-height: 1000%;
 			 overflow: hidden!important;
 }
 		nav {
