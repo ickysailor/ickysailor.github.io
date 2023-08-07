@@ -108,7 +108,7 @@ a {
 		content {	
 			display: block;
 			position: relative;	
-			margin-top: 100px;
+			margin-top: 0px;
 			margin-left: -100px;
 			float: auto;
 			width: 200%;
