@@ -108,16 +108,16 @@ a {
 		content {	
 			display: block;
 			position: relative;	
-			margin-top: -20px;
+			margin-top: 100px;
 			float: auto;
 			width: 200%;
-			padding: 3% 0% 3% 0%;
+			padding: 5% 0% 10% 0%;
 			overflow: hidden!important;
 }
 			object {
 		 	 z-index: 2;
  			 position: fixed;
-			 margin-top: -220px!important;
+			 margin-top: -300px!important;
 			min-width: 200%;
 			overflow: hidden!important;
 }
