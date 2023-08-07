@@ -77,16 +77,16 @@ a {
 			margin-left: -15%;
 			float: auto;
 			width: 180%;
-			min-height: 200%;
+/*			min-height: 200%;*/
 			padding: 5% 0% 10% 0%;
 			overflow: hidden!important;
 }
 			object {
 		 	 z-index: 2;
  			 position: fixed;
-			 margin-top: -20%!important;
+			 margin-top: -40%!important;
 			 min-width: 150%;
-			 min-height: 200%;
+			 min-height: 500%;
 			 overflow: hidden!important;
 }
 		nav {
