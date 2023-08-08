@@ -905,7 +905,7 @@ ul ol {
 		    max-width: 100%!important;
 		    min-height: 160%!important;
 		    max-height: 160%!important;
-/*			font-size: 200%!important;*/
+			font-size: 200%!important;
 	}
 @media screen and (min-width: 1px) and (max-width: 1550px) {
 		.dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .dropdown, .ul, .ol, .dropdown-item.active, .dropdown-item-text, .dropdown-header, .dropdown-menu.show {
