@@ -901,10 +901,11 @@ ul ol {
 
 @media screen and (min-width: 1px) and (max-width: 1550px) {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
-		  min-width: 90%!important;
+/*		  min-width: 90%!important;
 		  max-width: 90%!important;
 		  min-height: 300%!important;
-		  max-height: 300%!important;
+		  max-height: 300%!important;*/
+			font-size: 100%!important;
 	}
 
 	} 
