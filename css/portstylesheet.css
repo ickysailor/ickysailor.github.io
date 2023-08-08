@@ -92,11 +92,11 @@ a {
 		nav {
 			position: relative;	
 			float: auto;
-			margin-top: -15px;
-			margin-left: 0;
+			margin-top: -35px;
+			margin-left: -25px;
 			padding-top: 2%;
 			padding-bottom: 1%;
 /*			min-width: 100%;*/
-			font-size: 100%!important;
+			font-size: 800%!important;
 }
 }
