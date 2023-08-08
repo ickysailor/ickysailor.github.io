@@ -74,7 +74,7 @@ a {
 			display: block;
 			position: relative;	
   			margin-top: -30%;
-			margin-left: 8%;
+			margin-left: 18%;
 			float: auto;
 			width: 100%;
 			min-height: 1000%;
@@ -84,7 +84,7 @@ a {
 			object {
 		 	 z-index: 2;
  			 position: fixed;
-/*			 margin-top: -60%!important;*/
+/*			margin-top: -60%!important;*/
 			padding-top: 20%;
 			 min-width: 150%;
 			 overflow: hidden!important;
