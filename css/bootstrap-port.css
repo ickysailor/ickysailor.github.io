@@ -900,12 +900,18 @@ ul ol {
 }
 
 @media screen and (min-width: 1px) and (max-width: 1550px) {
-		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .dropdown, .ul, .ol, .dropdown-item.active, .dropdown-item-text, .dropdown-header, .dropdown-menu.show {
-		    min-width: 100%!important;
-		    max-width: 100%!important;
+		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link {
+		    min-width: 110%!important;
+		    max-width: 110%!important;
 		    min-height: 160%!important;
 		    max-height: 160%!important;
 			font-size: 160%!important;
 	}
-
+@media screen and (min-width: 1px) and (max-width: 1550px) {
+		.dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .dropdown, .ul, .ol, .dropdown-item.active, .dropdown-item-text, .dropdown-header, .dropdown-menu.show {
+			font-size: 120%!important; 
 	} 
+	
+	}
+	
+}
