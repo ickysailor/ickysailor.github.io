@@ -83,9 +83,8 @@ a {
 }
 			object {
 		 	 z-index: 2;
- 			 position: fixed;
-			 margin-top: -60%!important;
-			padding-top: 20%;
+ 			 position: fixed; 
+			 padding-top: 20%;
 			 min-width: 150%;
 			 overflow: hidden!important;
 }
