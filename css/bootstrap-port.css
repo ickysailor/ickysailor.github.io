@@ -903,7 +903,8 @@ ul ol {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
 		  min-width: 90%!important;
 		  max-width: 90%!important;
-		  min-height: 40%!important;
+		  min-height: 60%!important;
+		  min-height: 60%!important;
 	}
 
 	} 
