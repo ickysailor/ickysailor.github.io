@@ -75,26 +75,6 @@ ul ol {
   margin-left: 0;
 }
 
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0px;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 20.5rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-}
-
 .dropdown-menu-left {
   right: auto;
   left: 0;
@@ -899,9 +879,9 @@ ul ol {
   color: #fff;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1550px) {
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
-		  min-width: 13rem!important;
+		  min-width: 10rem!important;
 		  max-width: 13rem!important; }
 	
 @media screen and (min-width: 1px) and (max-width: 1199px) {

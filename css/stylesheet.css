@@ -161,42 +161,40 @@ hr {
 /* 			================		4K MEDIA  		================	*/	
 @media screen and (min-width: 2000px){
 		html {
-			font-size: 2vw!important;
-}
-	.bdy {
-			font-size: 2vw !important;
+			font-size: 2vw;
 }
 		aside {
 			position: absolute;
 			display: block;
-			margin: auto 20% auto 20%;
-			top: 30%;
-			width: 70%;
+			margin: auto;
+			top: 20%;
+			width: 100%;
 			height: auto;
 }
 	.web {
-		margin-left: 5.25%;
+		margin-left: 2.25%;
 		max-width: 100%;
 }
 		content {	
 			display: block;
-			position: relative;	
-			top: -120px;
+			position: fixed;	
+			top: 20%;
+			left: 61%;
 			margin: 0;
 			float: auto;
-			width: 100%;
-			padding: 70px;
-			height: auto;
+			width: 36%;
+			padding: 60px;
+			height: 51.25%;
 			border: 15px solid #75b9a6;
 			border-block: 12px solid #ffaf26;
-			z-index: 2;
+			overflow: hidden;
+			
 }
-		.icn {
-		max-width: 40%;
-		font-size: 1.5vw!important;
-}
-		.icn a {
-		font-size: 1.75vw!important;
+	.bdy {
+		font-size: 1vw!important;
+	}
+			.icn {
+		max-width: 50%;
 }
 		nav {
 			position: relative;	
@@ -207,24 +205,19 @@ hr {
 			padding-bottom: 2%;
 }
 		header {
-			position: relative;
+			position: fixed;
 			float: right;
-			left: 0.5%;
+			right: 2.25%;
 			width: 100%;
-			margin-top: -100px;
-			margin-right: 0px;
-			padding-bottom: 42%;
-			font-size: 7vw!important;
+			margin-top: -1.5%;
+			font-size: 6vw!important;
 			line-height: 0.5;
 }
 		footer {
-			position: absolute;
-			display: block;
-			top: 50%;
-			min-width: 100%;
-			z-index: 1;
+			display: none;
 } 
 }
+	
 /* 			================		SKIPPING 1551-2000 FOR DEFAULTS 		================	*/	
 /* 			================		LARGE MEDIA  		================	*/					
 @media screen and (min-width: 1400px) and (max-width: 1550px) {
