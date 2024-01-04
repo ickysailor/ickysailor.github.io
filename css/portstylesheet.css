@@ -1,35 +1,41 @@
 @font-face {
-    font-family: "Goldoni";
-    src: url('goldoni.woff2') format('woff2'),
-         url('goldoni.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+		font-family: "Goldoni";
+		src: url('goldoni.woff2') format('woff2'),
+			 url('goldoni.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
 
 }
 @font-face {
-    font-family: "notcouriersansregular";
-    src: url('notcouriersansregular.woff') format('woff');
+		font-family: "notcouriersansregular";
+		src: url('notcouriersansregular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+
+}
+@font-face {
+		font-family: "Malnorsans";
+		src: url("malnorsansdemo-thin.woff2") format("woff2"),
+			 url("malnorsansdemo-thin.woff") format("woff");
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+    font-family: "amikoregular";
+    src: url('Amiko-Regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-	}
-@font-face {
-    font-family: "Malnorsans";
-    src: url("malnorsansdemo-thin.woff2") format("woff2"),
-         url("malnorsansdemo-thin.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
 }
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-}
+	  font-family: sans-serif;
+	  line-height: 1.15;
+	  -webkit-text-size-adjust: 100%;
+	}
 body {
-	background-color: #ffffff;
-	text-transform: uppercase;
-	font-family: "notcouriersansregular";
-    overflow: hidden;
+		background-color: #ffffff;
+		text-transform: uppercase;
+		font-family: "notcouriersansregular";
 }
 nav {
 		position: fixed;
@@ -40,61 +46,57 @@ nav {
 		font-family: "notcouriersansregular";
 }
 content {
+	margin-top: -13%;
 	z-index: 2;
-	position: static;
+	position: fixed;
 	padding: 1%;
 	background-color: #ffffff;
-	font-size: 22px;
+	
 }
 object {
   z-index: 2;
   position: fixed;
-  margin-top: -150px;
   min-width: 98.5%;
   min-height: 115%;
-}
-/* TEXT FORMATTING */
-a {
-	font-size: 16px;
-	color: #000000;
-	background-color: #ffffff;
-	text-decoration: none;
-}
-/* GALLERY */
-* {
-  box-sizing: border-box;
+	
 }
 
-/*			================		 MEDIA  		================	*/
-@media screen and (min-width: 1px) and (max-width: 1550px) {
+	/* TEXT FORMATTING */
+a {
+		text-decoration: none;
+	}
+
+	/* RESPONSIVE */
+
+/* 			================		4K MEDIA  		================	*/	
+@media screen and (min-width: 2000px){
 		html {
 			font-size: 2vw;
 }
-		content {	
+		aside {
+			position: absolute;
 			display: block;
-			position: relative;	
-  			margin-top: -30%;
-			margin-left: -12%;
-			float: auto;
-			width: 100%;
-			min-height: 1000%;
-			padding: 5% 0% 10% 0%;
-			overflow: hidden!important;
+			margin: auto;
+			top: 20%;
+			left: 4%;
+			max-width: 60%;
+			height: auto;
+			border: 0px;
 }
-			object {
-		 	 z-index: 2;
- 			 position: fixed;
-			margin-top: -10%!important;
-			padding-top: 20%;
-			 min-width: 150%;
-			 overflow: hidden!important;
+	.web {
+		margin-left: 2.25%;
+		max-width: 100%;
+}
+	.bdy {
+		font-size: 1vw!important;
 }
 		nav {
 			position: relative;	
 			float: auto;
-			margin-top: -3%;
-			margin-left: -1%;
+			margin-top: -15px;
+			margin-left: 0;
 			padding-top: 2%;
-			padding-bottom: 1%;
+			padding-bottom: 2%;
 }
 }
+	

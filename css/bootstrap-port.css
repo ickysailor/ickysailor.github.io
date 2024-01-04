@@ -85,7 +85,7 @@ ul ol {
   min-width: 20.5rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  font-size: 30px;
   color: #212529;
   text-align: left;
   list-style: none;
@@ -899,21 +899,13 @@ ul ol {
   color: #fff;
 }
 
-@media screen and (min-width: 1px) and (max-width: 1550px) {
-		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link {
-		    min-width: 101%!important;
-		    max-width: 101%!important;
-		    min-height: 160%!important;
-		    max-height: 160%!important;
-			font-size: 200%!important;
-	}
-@media screen and (min-width: 1px) and (max-width: 1550px) {
-		.dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .dropdown, .ul, .ol, .dropdown-item.active, .dropdown-item-text, .dropdown-header, .dropdown-menu.show {
-			font-size: 100%!important; 
-			min-width: 101%!important;
-		    max-width: 101%!important;
-	} 
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
+		  min-width: 10rem!important;
+		  max-width: 13rem!important; }
 	
-	}
-	
-}
+@media screen and (min-width: 1px) and (max-width: 1199px) {
+		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
+		  min-width: 20%!important;
+		  max-width: 20%!important; }
+	} }
