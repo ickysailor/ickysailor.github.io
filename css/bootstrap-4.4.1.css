@@ -255,7 +255,7 @@ ul ol {
   color: #212529;
   text-align: inherit;
   white-space: nowrap;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 0;
   transition: 0.3s;
   font-weight: 100;
@@ -901,8 +901,8 @@ ul ol {
 
 @media screen and (min-width: 1200px) and (max-width: 2000px) {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
-		  min-width: 10rem!important;
-		  max-width: 13rem!important; }
+		  min-width: 22rem!important;
+		  max-width: 22rem!important; }
 	
 @media screen and (min-width: 1px) and (max-width: 1199px) {
 		.nav, .nav-pills, .nav-tabs, .nav-item, .navbar, .nav-link, .dropdown-menu, .dropdown-menu, .dropdown-item, .dropdown-toggle, .ul, .ol {
