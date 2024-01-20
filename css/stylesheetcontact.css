@@ -200,7 +200,6 @@ hr {
 			border: 0px;
 }
 	.web {
-		margin-left: 2.25%;
 		max-width: 100%;
 }
 		content {	
@@ -242,7 +241,8 @@ hr {
 			line-height: 0.5;
 }
 		footer {
-			display: none;
+/*			display: none;*/
+			margin-top: 820px;
 } 
 }
 	
