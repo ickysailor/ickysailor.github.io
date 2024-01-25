@@ -381,8 +381,9 @@ hr {
 		aside {
 			position: absolute;
 			top: 10%;
-			float: left;
-			max-width: 20%;
+			margin-left: 1vw;
+			float: right;
+			max-width: 18%;
 			height: auto;
 			background-color: #ffffff!important;
 			border: 0px!important;
