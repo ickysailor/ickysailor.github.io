@@ -91,7 +91,7 @@ ul ol {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid #ff9e2a;
   border-radius: 12px;
 }
 
@@ -244,7 +244,7 @@ ul ol {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #ff9e2a;
 }
 /*NAV LINK ITEMS*/
 .dropdown-item {
@@ -252,7 +252,7 @@ ul ol {
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
-  color: #212529;
+  color: #ff3e3e;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -262,14 +262,14 @@ ul ol {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #ff3e3e;
   text-decoration: none;
-  background-color: #a8d3c7;
+  background-color: #fff4e8;
   transition: 0.3s;
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   background-color: #75b9a6;
   transition: 0.3s;
@@ -399,7 +399,7 @@ ul ol {
   display: block;
   padding: 0.5rem 1rem;
   font-size: 30px;
-  font-weight: 100;
+  font-family: "MalnorsansBold"!important;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -425,20 +425,20 @@ ul ol {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #2b2c28 #2b2c28 #2b2c28;
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #2b2c28;
   background-color: transparent;
   border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #2b2c28;
   background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  border-color: #dee2e6 #2b2c28 #fff;
 }
 
 .nav-tabs .dropdown-menu {
@@ -449,7 +449,7 @@ ul ol {
 .nav-pills .nav-link {
   width: 20.5rem;
   color: #fff;
-  background-color: #ffaf26;
+  background-color: #ff9e2a;
   border: 0px solid #fff;
   border-radius: 16px;
   font-family: "notcouriersansregular";
