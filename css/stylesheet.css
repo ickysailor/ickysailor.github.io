@@ -116,7 +116,7 @@ footer {
 		font-family: "opensans";
 		text-transform: lowercase;
 		font-size: 14px;
-		font-weight: 600;
+/*		font-weight: 600;*/
 		letter-spacing: 1px;
 		word-spacing: 10px;
 		text-align: center;
@@ -134,7 +134,7 @@ div.bottom {
 	color:  #ff9e2a;
 	font-family: "opensans";
 	font-size: 15px;
-	font-weight: 600;
+/*	font-weight: 600;*/
 	word-spacing: 10px;
 	text-align: center;
 	transition: all 0.5s ease-out;
