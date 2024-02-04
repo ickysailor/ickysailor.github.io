@@ -74,6 +74,7 @@ content {
 		background-color: #ffffff;
 		border: 4px solid #75b9a6;
 		border-block: 6px solid #ff9e2a;
+		text-align: center;
 		font-size: 22px;
 		overflow-y: auto;
 		overflow-x: hidden;
