@@ -121,7 +121,7 @@ footer {
 		text-align: center;
 }
 div {
-	font-family: "opensanssemibold"!important;
+	font-family: "opensans"!important;
 }
 div.bottom {
 	position: absolute;
@@ -134,7 +134,7 @@ div.bottom {
 	border-top: solid 3px #ff9e2a;
 	border-bottom: solid 3px #ff9e2a;
 	color:  #ff9e2a;
-	font-family: "opensanssemibold"!important;
+	font-family: "opensans"!important;
 	font-size: 15px;
 	word-spacing: 10px;
 	text-align: center;
