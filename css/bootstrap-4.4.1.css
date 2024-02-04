@@ -399,7 +399,7 @@ ul ol {
   display: block;
   padding: 0.5rem 1rem;
   font-size: 30px;
-  font-family: "open_sans"!important;
+  font-family: "opensans"!important;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -452,7 +452,7 @@ ul ol {
   background-color: #ff9e2a;
   border: 0px solid #fff;
   border-radius: 12px;
-  font-family: "open_sans";
+  font-family: "opensans";
   font-weight: 600;
   text-align: right;
   transition: 1s;
