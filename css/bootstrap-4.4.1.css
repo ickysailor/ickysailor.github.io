@@ -393,8 +393,6 @@ ul ol {
   list-style: none;
   letter-spacing: .2rem;
 }
-
-
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -452,7 +450,7 @@ ul ol {
   background-color: #ff9e2a;
   border: 0px solid #fff;
   border-radius: 12px;
-  font-family: "opensanssemibold";
+  font-family: "opensans";
   text-align: right;
   transition: 1s;
 }
