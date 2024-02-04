@@ -146,6 +146,9 @@ div.bottom {
 	transition: all 0.5s ease-out;
 	letter-spacing: 1px;
 }
+div {
+	font-family: "opensanssemibold"!important;
+}
 	/* TEXT FORMATTING */
 a {
 		text-decoration: none;
