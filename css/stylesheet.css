@@ -34,14 +34,14 @@
     font-style: italic;
 }
 html {
-	  font-family: "opensans";
+	  font-family: "opensans"!important;
 	  line-height: 1.15;
 	  -webkit-text-size-adjust: 100%;
 	}
 body {
 		background-color: #ffffff;
 		text-transform: uppercase;
-		font-family: "opensans";
+		font-family: "opensans"!important;
 		color: #2b2c28;
 }
 nav {
@@ -50,7 +50,7 @@ nav {
 		margin-top: 1%;
 		margin-left: 5.6%;
 		background-color: transparent;
-		font-family: "opensans";
+		font-family: "opensans"!important;
 }
 header {
 		position: absolute;
@@ -113,7 +113,7 @@ footer {
 		background-color: #ff3e3e;
 		overflow: hidden;
 		padding: 4px;
-		font-family: "opensanssemibold";
+		font-family: "opensanssemibold"!important;
 		text-transform: lowercase;
 		font-size: 14px;
 		letter-spacing: 1px;
@@ -131,7 +131,7 @@ div.bottom {
 	border-top: solid 3px #ff9e2a;
 	border-bottom: solid 3px #ff9e2a;
 	color:  #ff9e2a;
-	font-family: "opensanssemibold";
+	font-family: "opensanssemibold"!important;
 	font-size: 15px;
 	word-spacing: 10px;
 	text-align: center;
@@ -155,22 +155,20 @@ a.header {
 		line-height: 1.5;
 		color: #ff3e3e;
 		background-color: transparent;
-		font-weight: 100;
-		font-size: 60px;
 	}
 p.bdy {
-		font-family: "opensans";
+		font-family: "opensans"!important;
 		font-size: 16px;
 		text-indent: 15px;
 		text-transform: none;
 	    margin-top: -8px;
 	}
 p.icn {
-		font-family: "opensans";
+		font-family: "opensans"!important;
 		font-size: 16px;
 	}
 p.icn a {
-		font-family: "opensans";
+		font-family: "opensans"!important;
 		font-size: 18px;
 		font-weight: 700;
 		color: #595f5d;
@@ -190,9 +188,6 @@ hr {
 	margin: 0;
 	opacity: 0.4;
 }
-.bottom {
-	font-family: "opensanssemibold";
-}
 .bottom a {
 	color:  #ff3e3e;
 }
@@ -201,9 +196,6 @@ hr {
 }
 .bottom b {
 	color:  #ff3e3e;
-}
-.footer {
-	font-family: "opensanssemibold";
 }
 footer a {
 		color: #ffffff;
