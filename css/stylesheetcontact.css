@@ -131,7 +131,7 @@ div.bottom {
 	background-color: #ffffff;
 	width: 100%;
 	max-height: 25%;
-	margin-top: 40.5px;
+	margin-top: 40.5%;
 	margin-left: -10px;
 	padding: 8px;
 	border-top: solid 3px #ff9e2a;
@@ -381,10 +381,11 @@ footer:hover {
 		footer {
 			display: none;
 } 
-}
+
 			div.bottom {
 			display: none;
 } 
+}
 	
 /*			================		MEDIUM MEDIA  		================	*/
 @media screen and (min-width: 702px) and (max-width: 1400px) {
@@ -443,10 +444,10 @@ footer:hover {
 		footer {
 			display: none;
 } 
-}
 				div.bottom {
 			display: none;
 } 
+}
 /*			================		SMALL MEDIA  		================						*/
 @media screen and (min-width: 1px) and (max-width: 702px) {
 		html {
