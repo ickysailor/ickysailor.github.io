@@ -114,6 +114,7 @@ footer {
 		overflow: hidden;
 		padding: 4px;
 		font-family: "opensans"!important;
+		font-weight: 700;
 		text-transform: lowercase;
 		font-size: 14px;
 		letter-spacing: 1px;
