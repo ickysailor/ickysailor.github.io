@@ -50,7 +50,7 @@ nav {
 		margin-top: 1%;
 		margin-left: 5.6%;
 		background-color: transparent;
-		font-family: "open_sans";
+		font-family: "open_sans"!important;
 }
 header {
 		position: absolute;
@@ -113,6 +113,7 @@ footer {
 		background-color: #ff3e3e;
 		overflow: hidden;
 		padding: 4px;
+		font-family: "open_sans"!important;
 		text-transform: lowercase;
 		font-size: 14px;
 		font-weight: 600;
@@ -131,6 +132,7 @@ div.bottom {
 	border-top: solid 3px #ff9e2a;
 	border-bottom: solid 3px #ff9e2a;
 	color:  #ff9e2a;
+	font-family: "open_sans"!important;
 	font-size: 15px;
 	font-weight: 600;
 	word-spacing: 10px;
