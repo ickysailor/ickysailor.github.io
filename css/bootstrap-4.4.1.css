@@ -450,7 +450,7 @@ ul ol {
   background-color: #ff9e2a;
   border: 0px solid #fff;
   border-radius: 12px;
-  font-family: "opensanssemibold";
+  font-family: "opensanssemibold"!important;
   text-align: right;
   transition: 1s;
 }

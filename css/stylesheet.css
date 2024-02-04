@@ -1,31 +1,36 @@
 @font-face {
     font-family: "opensanslight";
-    src: url("/OpenSans-Light-webfont.woff") format("woff");
+    src: url("OpenSans-Light-webfont.woff") format("woff");
+	font-style: normal;
 }
 @font-face {
     font-family: "opensans";
-    src: url("/OpenSans-Regular-webfont.woff") format("woff");
+    src: url("OpenSans-Regular-webfont.woff") format("woff");
+	font-style: normal;
 }
 @font-face {
     font-family: "opensanssemibold";
-    src: url("/OpenSans-SemiBold-webfont.woff") format("woff");
+    src: url("OpenSans-SemiBold-webfont.woff") format("woff");
+	font-style: normal;
 }
 @font-face {
     font-family: "opensansbold";
-    src: url("/OpenSans-Bold-webfont.woff") format("woff");
+    src: url("OpenSans-Bold-webfont.woff") format("woff");
+	font-style: normal;
 }
 @font-face {
     font-family: "opensansextrabold";
-    src: url("/OpenSans-ExtraBold-webfont.woff") format("woff");
+    src: url("OpenSans-ExtraBold-webfont.woff") format("woff");
+	font-style: normal;
 }
 @font-face {
     font-family: "anglecia";
-    src: url("/AngleciaProDisplay-Regular-webfont.woff") format("woff");
+    src: url("AngleciaProDisplay-Regular-webfont.woff") format("woff");
     font-style: normal;
 }
 @font-face {
     font-family: "anglecia";
-    src: url("/AngleciaProDisplay-Italic-webfont.woff") format("woff");
+    src: url("AngleciaProDisplay-Italic-webfont.woff") format("woff");
     font-style: italic;
 }
 html {
@@ -108,7 +113,7 @@ footer {
 		background-color: #ff3e3e;
 		overflow: hidden;
 		padding: 4px;
-		font-family: "opensanssemibold"!important;
+		font-family: "opensans"!important;
 		text-transform: lowercase;
 		font-size: 14px;
 		letter-spacing: 1px;
