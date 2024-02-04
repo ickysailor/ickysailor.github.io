@@ -190,6 +190,9 @@ hr {
 	margin: 0;
 	opacity: 0.4;
 }
+.bottom {
+	font-family: "opensanssemibold";
+}
 .bottom a {
 	color:  #ff3e3e;
 }
@@ -198,6 +201,9 @@ hr {
 }
 .bottom b {
 	color:  #ff3e3e;
+}
+.footer {
+	font-family: "opensanssemibold";
 }
 footer a {
 		color: #ffffff;
