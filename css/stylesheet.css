@@ -1,25 +1,25 @@
 @font-face {
-    font-family: "open_sans";
+    font-family: "opensans";
     src: url("OpenSans-Light-webfont.woff") format("woff");
     font-weight: 100;
 }
 @font-face {
-    font-family: "open_sans";
+    font-family: "opensans";
     src: url("OpenSans-Regular-webfont.woff") format("woff");
     font-weight: 400;
 }
 @font-face {
-    font-family: "open_sans";
+    font-family: "opensans";
     src: url("OpenSans-SemiBold-webfont.woff") format("woff");
     font-weight: 600;
 }
 @font-face {
-    font-family: "open_sans";
+    font-family: "opensans";
     src: url("OpenSans-Bold-webfont.woff") format("woff");
     font-weight: 700;
 }
 @font-face {
-    font-family: "open_sans";
+    font-family: "opensans";
     src: url("OpenSans-ExtraBold-webfont.woff") format("woff");
     font-weight: 800;
 }
@@ -34,14 +34,14 @@
     font-style: italic;
 }
 html {
-	  font-family: "open_sans";
+	  font-family: "opensans";
 	  line-height: 1.15;
 	  -webkit-text-size-adjust: 100%;
 	}
 body {
 		background-color: #ffffff;
 		text-transform: uppercase;
-		font-family: "open_sans";
+		font-family: "opensans";
 		color: #2b2c28;
 }
 nav {
@@ -50,7 +50,7 @@ nav {
 		margin-top: 1%;
 		margin-left: 5.6%;
 		background-color: transparent;
-		font-family: "open_sans"!important;
+		font-family: "opensans"!important;
 }
 header {
 		position: absolute;
@@ -113,7 +113,7 @@ footer {
 		background-color: #ff3e3e;
 		overflow: hidden;
 		padding: 4px;
-		font-family: "open_sans"!important;
+		font-family: "opensans"!important;
 		text-transform: lowercase;
 		font-size: 14px;
 		font-weight: 600;
@@ -132,7 +132,7 @@ div.bottom {
 	border-top: solid 3px #ff9e2a;
 	border-bottom: solid 3px #ff9e2a;
 	color:  #ff9e2a;
-	font-family: "open_sans"!important;
+	font-family: "opensans"!important;
 	font-size: 15px;
 	font-weight: 600;
 	word-spacing: 10px;
@@ -161,18 +161,18 @@ a.header {
 		font-size: 60px;
 	}
 p.bdy {
-		font-family: "open_sans";
+		font-family: "opensans";
 		font-size: 16px;
 		text-indent: 15px;
 		text-transform: none;
 	    margin-top: -8px;
 	}
 p.icn {
-		font-family: "open_sans";
+		font-family: "opensans";
 		font-size: 16px;
 	}
 p.icn a {
-		font-family: "open_sans";
+		font-family: "opensans";
 		font-size: 18px;
 		font-weight: 700;
 		color: #595f5d;
