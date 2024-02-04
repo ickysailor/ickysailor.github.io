@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "opensans";
+    font-family: "opensanslight";
     src: url("OpenSans-Light-webfont.woff") format("woff");
     font-weight: 100;
 }
@@ -9,17 +9,17 @@
     font-weight: 400;
 }
 @font-face {
-    font-family: "opensans";
+    font-family: "opensanssemibold";
     src: url("OpenSans-SemiBold-webfont.woff") format("woff");
     font-weight: 600;
 }
 @font-face {
-    font-family: "opensans";
+    font-family: "opensansbold";
     src: url("OpenSans-Bold-webfont.woff") format("woff");
     font-weight: 700;
 }
 @font-face {
-    font-family: "opensans";
+    font-family: "opensansextrabold";
     src: url("OpenSans-ExtraBold-webfont.woff") format("woff");
     font-weight: 800;
 }
@@ -113,10 +113,9 @@ footer {
 		background-color: #ff3e3e;
 		overflow: hidden;
 		padding: 4px;
-		font-family: "opensans";
+		font-family: "opensanssemibold";
 		text-transform: lowercase;
 		font-size: 14px;
-/*		font-weight: 600;*/
 		letter-spacing: 1px;
 		word-spacing: 10px;
 		text-align: center;
@@ -132,9 +131,8 @@ div.bottom {
 	border-top: solid 3px #ff9e2a;
 	border-bottom: solid 3px #ff9e2a;
 	color:  #ff9e2a;
-	font-family: "opensans";
+	font-family: "opensanssemibold";
 	font-size: 15px;
-/*	font-weight: 600;*/
 	word-spacing: 10px;
 	text-align: center;
 	transition: all 0.5s ease-out;
