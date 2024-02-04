@@ -120,6 +120,9 @@ footer {
 		word-spacing: 10px;
 		text-align: center;
 }
+div {
+	font-family: "opensanssemibold"!important;
+}
 div.bottom {
 	position: absolute;
 	background-color: #ffffff;
