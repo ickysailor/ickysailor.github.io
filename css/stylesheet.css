@@ -34,7 +34,7 @@
     font-style: italic;
 }
 html {
-	  font-family: sans-serif;
+	  font-family: "open_sans";
 	  line-height: 1.15;
 	  -webkit-text-size-adjust: 100%;
 	}
