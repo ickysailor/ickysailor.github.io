@@ -438,6 +438,7 @@ footer:hover {
 		aside {
 			position: absolute;
 			top: 10%;
+			margin-left: 1vw;
 			float: left;
 			max-width: 20%;
 			height: auto;
@@ -466,7 +467,7 @@ footer:hover {
 		header {
 			position: relative;
 			float: right;
-			margin-top: 5vh;
+			margin-top: 4vh;
 			margin-right: 1vw;
 			padding-top: 2%;
 			padding-bottom: 0;
