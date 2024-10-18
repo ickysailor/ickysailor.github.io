@@ -102,7 +102,7 @@ a.contact:hover {
 	color: #37AA9C;
 }
 a.nav {
-	font-size: 38px;
+	font-size: 38px!important;
 	color: #000000;
 	text-decoration: none;
 	padding: 0 10vw;
@@ -149,6 +149,7 @@ html {
 	font-family: "opensans";
 	line-height: 1.2;
 	text-transform: uppercase;
+	overflow-x: hidden;
 }
 
 body {
@@ -192,3 +193,24 @@ blockb {
 	width: auto;
 	min-height: 45vh;
 }
+
+/*			================		SMALL MEDIA  		================	*/
+@media screen and (min-width: 1px) and (max-width: 1119px) {
+	body {
+	font-size: 3vh!important;
+}
+	a.nav {
+			font-size: 2.25vh!important;
+			padding: 0 3vw!important;
+}
+	table.bottom {
+			font-size: 2vh!important;
+}
+	h2 {
+		font-size: 3.5vh!important;
+	}
+	img.bottom {
+ max-width: 75%;
+}
+}
+	
