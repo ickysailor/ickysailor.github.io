@@ -28,26 +28,28 @@
 h {	
 	font-size: 16vh; 
 	font-family: "opensansextrabold";
+	margin: 0px;
 	animation: header ease 2s;
    	animation-iteration-count: 1;
    	animation-fill-mode: forwards;
 	transition: all 0.7s;
 }
 h:hover {
-	transition: all 0.7s;
 	color: #37AA9C;
+	transition: all 0.7s;
 }
 h2 {	
 	font-size: 7vh; 
 	font-family: "opensansextrabold";
+	margin: 0px;
 	animation: header ease 2s;
    	animation-iteration-count: 1;
    	animation-fill-mode: forwards;
 }
 h3 {	
+	color: #37AA9C;
 	font-size: 7vh; 
 	font-family: "opensansextrabold";
-	color: #37AA9C;
 	margin: 0px;
 	letter-spacing: .25vw;
 	animation: header ease 2s;
@@ -55,14 +57,19 @@ h3 {
    	animation-fill-mode: forwards;
 }
 h4 {	
+	color: #FFFFFF;
 	font-size: 7vh; 
 	font-family: "opensansextrabold";
-	color: #FFFFFF;
 	margin: 0px;
 	letter-spacing: .25vw;
 	animation: header ease 2s;
    	animation-iteration-count: 1;
    	animation-fill-mode: forwards;
+	transition: all 0.7s;
+}
+h4:hover {
+	color: #94F3E4;
+	transition: all 0.7s;
 }
 b {
 	color: #37AA9C;
@@ -77,12 +84,22 @@ b {
 }
 p.normal {
 	text-transform:  none;
+	padding: 20px;
+	margin: 0px;
 }
 p.small {
 	font-size: 2vh;
 	padding: 0px;
 	margin: 0px;
 }
+p.smallalt {
+	color: #37AA9C;
+	font-size: 2.25vh;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 300;
+}
+
 p.img {
 	text-align: center;
 	padding-top: 5vh;
@@ -97,15 +114,32 @@ a.contact {
 	transition: all 0.7s;
 }
 a.contact:hover {
+	color: #37AA9C;
 	font-size: 4vw;
 	transition: all 0.7s;
-	color: #37AA9C;
 }
-a.nav {
-	font-size: 38px!important;
+a.gal {
 	color: #000000;
 	text-decoration: none;
+	transition: all 0.7s;
+	text-transform: uppercase;
+}
+a.gal:hover {
+	color: #37AA9C;
+	font-size: 2.25vw;
+	transition: all 0.7s;
+}
+a.work {
+	color: #37AA9C;
+	text-decoration: none;
+	transition: all 0.7s;
+}
+a.nav {
+	color: #000000;
+	font-size: 38px!important;
+	text-decoration: none;
 	padding: 0 10vw;
+	transition: all 0.7s;
 }
 
 table.bottom {
@@ -144,7 +178,7 @@ padding: 0px;
 img.bottom {
  max-width: 25%;
 }
- img.svg {
+img.svg {
 		width: 1.5vw;
 		height: auto;
 	}
@@ -184,7 +218,7 @@ blocka {
 	margin: auto;
 	padding: 2vw 15vw 2vw 15vw;
 	width: auto;
-	min-height: 45vh;
+	min-height: 30vh;
 }
 
 blockb {
@@ -195,7 +229,7 @@ blockb {
 	margin: auto;
 	padding: 2vw 15vw 2vw 15vw;
 	width: auto;
-	min-height: 45vh;
+	min-height: 30vh;
 }
 
 /*			================		SMALL MEDIA  		================	*/
