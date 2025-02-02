@@ -126,7 +126,7 @@ a.gal {
 }
 a.gal:hover {
 	color: #37AA9C;
-	font-size: 2.25vw;
+	font-size: 5vh;
 	transition: all 0.7s;
 }
 a.work {
