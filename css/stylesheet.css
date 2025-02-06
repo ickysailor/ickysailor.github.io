@@ -25,6 +25,22 @@
 	font-style: normal;
 }
 
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(25%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 0.5s fadeInUp;
+}
+
+
 h {	
 	font-size: 16vh; 
 	font-family: "opensansextrabold";
