@@ -115,7 +115,7 @@ a.contact {
 }
 a.contact:hover {
 	color: #37AA9C;
-	font-size: 4vw;
+	font-size: 4vh;
 	transition: all 0.7s;
 }
 a.gal {
@@ -152,7 +152,7 @@ table.bottom td
 
 }
 table.bottom td:hover {
-	font-size: 2.1vw;
+	font-size: 2.1vh;
 	transition: all 0.5s;
 }
 hr {

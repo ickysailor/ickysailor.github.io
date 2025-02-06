@@ -1,0 +1,118 @@
+/* FONTS */
+@font-face {
+    font-family: "opensanslight";
+    src: url("OpenSans-Light-webfont.woff") format("woff");
+	font-style: normal;
+}
+@font-face {
+    font-family: "opensans";
+    src: url("OpenSans-Regular-webfont.woff") format("woff");
+	font-style: normal;
+}
+@font-face {
+    font-family: "opensanssemibold";
+    src: url("OpenSans-SemiBold-webfont.woff") format("woff");
+	font-style: normal;
+}
+@font-face {
+    font-family: "opensansbold";
+    src: url("OpenSans-Bold-webfont.woff") format("woff");
+	font-style: normal;
+}
+@font-face {
+    font-family: "opensansextrabold";
+    src: url("OpenSans-ExtraBold-webfont.woff") format("woff");
+	font-style: normal;
+}
+
+a {
+	color: #1A1A1B;
+	text-decoration: none;
+	transition: all 0.7s;
+}
+a:hover {
+	color: #37AA9C;
+	transition: all 0.7s;
+}
+img {
+padding: 0px;
+}
+img.svg {
+		width: 1.5vw;
+		height: auto;
+	}
+/* BODY */
+html {
+	font-family: "opensans";
+	line-height: 1.2;
+	text-transform: uppercase;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #1A1A1B;
+	margin: 0px;
+	font-size: 4vh;
+	line-height: 1.2;
+	font-weight: 600;
+	word-spacing: 1.5vw;
+}
+
+nav {	
+	background-color: #94F3E4;
+	color: #1A1A1B;
+	position: relative;
+	display: block;
+	margin: auto;
+	padding: 2vw;
+	width: auto;
+	min-height: 1vh;
+	text-align: center;
+}
+
+btnblock {
+	background-color: #1A1A1B;
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 100%;
+	min-height: 1vh;
+	text-align: center;
+}
+btn
+{
+	background-color: #ffffff;
+	color: #94F3E4;
+	vertical-align: middle;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-top: 6vh;
+	margin-right: auto;
+	padding: 20px;
+	max-width: 50%;
+	min-height: .5vh;
+ 	border: 6px solid #94F3E4;
+	border-radius: 24px;
+	box-shadow: .75vh .75vh #37AA9C;
+	transition: all 0.7s;
+}
+btn:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+/*			================		SMALL MEDIA  		================	*/
+@media screen and (min-width: 1px) and (max-width: 1119px) {
+	body {
+	font-size: 3vh!important;
+}
+
+	img.bottom {
+ max-width: 75%!important;
+}
+	img.svg {
+		width: 3.5vw!important;
+		height: auto;
+	}
+}
+	
