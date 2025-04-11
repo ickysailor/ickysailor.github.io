@@ -483,6 +483,10 @@ dot {
     h2 {
         font-size: 4vh!important;
     }
+
+	h3 {
+        font-size: 3.5vh!important;
+    }
 	
     p {
         font-size: 2vh;
