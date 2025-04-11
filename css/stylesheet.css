@@ -187,8 +187,7 @@ h1 {
     font-family: "Playfair Display";
 	font-style: italic;
 	font-weight: 800;
-    margin: 0;
-	margin-top: -1.6vh;
+    margin: -2vh 0 1vh 0;
     animation: header ease 2s, bounceIn 2.28s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -221,7 +220,7 @@ h3 {
     letter-spacing: .3vw;
     line-height: 6vh;
 	text-indent: 1vw;
-    margin: 0 0 2vw 0;
+    margin: 0 0 3vw 0;
     padding: 0 .5vw;
     animation: header ease 2s;
     animation-iteration-count: 1;
@@ -360,16 +359,17 @@ img {
 }
 
 img.svg {
-    width: 3vw;
+    width: 5vw;
     height: auto;
     margin-right: 0.5vw;
     vertical-align: middle;
 }
 
 img.lctn {
-    width: 2vw;
+    width: 3.75vw;
     height: auto;
-    margin-right: 3.65vw;
+    margin-right: 3.7vw;
+	margin-left: 0.5vw;
     vertical-align: middle;
 }
 .full-width-image {
@@ -470,6 +470,7 @@ dot {
 @media screen and (max-width: 992px) {
     h1 {
         font-size: 12vh!important;
+		margin-bottom: 3vh!important;
     }
     
     a.nav {
@@ -485,7 +486,8 @@ dot {
     }
 
 	h3 {
-        font-size: 3.5vh!important;
+        font-size: 3vh!important;
+		margin-bottom: 3vh!important;
     }
 	
     p {
