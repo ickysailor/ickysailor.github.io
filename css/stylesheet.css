@@ -24,6 +24,89 @@
     src: url("OpenSans-ExtraBold-webfont.woff") format("woff");
     font-style: normal;
 }
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
 
 /* ================= ANIMATION ================= */
 @keyframes fadeInUp {
@@ -92,13 +175,18 @@
     }
 }
 .fadeInUp-animation2 {
+	opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     animation: fadeInUp2 1s forwards;
 }
 
 /* ================= HEADER ================= */
 h1 {
     font-size: 16vh;
-    font-family: "opensansextrabold";
+    font-family: "Playfair Display";
+	font-style: italic;
+	font-weight: 800;
     margin: 0;
 	margin-top: -1.6vh;
     animation: header ease 2s, bounceIn 2.28s;
@@ -115,7 +203,7 @@ h1:hover {
 }
 
 h2 {
-    font-size: 4vh;
+    font-size: 8vh;
     font-family: "opensansextrabold";
     margin: 0;
     animation: header ease 2s;
@@ -127,10 +215,11 @@ h2 {
 h3 {
     background-color: #81D7D3;
     width: 100%;
-    font-size: 3vh;
-    font-family: "opensansbold";
+    font-size: 4vh;
+    font-family: "Playfair Display";
+	font-weight: 100;
     letter-spacing: .3vw;
-    line-height: 3.5vh;
+    line-height: 6vh;
 	text-indent: 1vw;
     margin: 0 0 2vw 0;
     padding: 0 .5vw;
@@ -146,7 +235,7 @@ b {
 }
 
 p {
-    font-size: 1vw;
+    font-size: 2vh;
     font-family: "opensans";
     word-spacing: .25vw;
 	text-transform: none;
@@ -156,7 +245,7 @@ p {
 }
 
 ul {
-    font-size: 1vw;
+    font-size: 2vh;
     font-family: "opensanssemibold";
     line-height: 1.8vw;
     word-spacing: .25vw;
@@ -165,6 +254,9 @@ ul {
     padding: 4vh 0;
     width: 85%;
     list-style-type: none;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
 }
 
 li::before {
@@ -197,7 +289,7 @@ a:hover {
 }
 
 a.contact {
-    font-size: 4vh;
+    font-size: 8vh;
     color: #ffffff;
     position: relative;
 }
@@ -224,7 +316,7 @@ a.contact:hover::after {
 }
 
 a.gal {
-    font-size: 4vh;
+    font-size: 8vh;
     color: #000000;
     text-transform: uppercase;
     position: relative;
@@ -377,7 +469,7 @@ dot {
 /* ================= SMALL MEDIA ================= */
 @media screen and (max-width: 992px) {
     h1 {
-        font-size: 12vh !important;
+        font-size: 12vh!important;
     }
     
     a.nav {
@@ -385,20 +477,20 @@ dot {
     }
     
     a.contact, a.gal {
-        font-size: 3vh !important;
+        font-size: 4vh!important;
     }
     
     h2 {
-        font-size: 3vh !important;
+        font-size: 4vh!important;
     }
 	
     p {
-        font-size: 4vw;
+        font-size: 2vh;
         line-height: 10vw;
     }
 
     ul {
-        font-size: 4vw;
+        font-size: 2vh;
         font-family: "opensansbold";
         line-height: 10vw;
         width: 100%;
@@ -414,11 +506,22 @@ dot {
     }
     
     article {
-        padding: 6vw 0vw;
+        padding: 12vw 6vw;
         max-width: 90%;
         outline-offset: -4vw;
     }
-    
+    section {
+    padding: 12vw 6vw;
+}
+
+	sectionb {
+    padding: 12vw 6vw;
+}
+	
+	header {
+    padding: 12vw 6vw;
+}
+	
     img.svg {
         width: 10vw;
     }
