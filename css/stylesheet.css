@@ -394,13 +394,13 @@ body {
 
 nav {
     font-family: "opensanssemibold";
-    background: linear-gradient(45deg, #ffffff -20%, #81D7D3 60%, #55a49f);
+    background: linear-gradient(45deg, #ffffff -30%, #81D7D3);
     color: #1A1A1B;
     margin: auto;
     padding: 1vw;
     text-align: center;
+    transition: all 0.7s;
 }
-
 header {
     background-color: #1A1A1B;
     color: #ffffff;
