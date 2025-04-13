@@ -482,7 +482,7 @@ dot {
     
     a.nav {
         padding: 0 2vw;
-		font-size: 1.2vh;
+		font-size: 1.5vh;
     }
     
     a.contact, a.gal {
@@ -540,7 +540,7 @@ dot {
         width: 10vw;
     }
     img.logo {
-    width: 10vw;
+    width: 12vw;
 }
     img.lctn {
         width: 6.5vw;
