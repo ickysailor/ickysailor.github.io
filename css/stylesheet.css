@@ -364,7 +364,11 @@ img.svg {
     margin-right: 0.5vw;
     vertical-align: middle;
 }
-
+img.logo {
+    width: 6vw;
+    height: auto;
+    vertical-align: middle;
+}
 img.lctn {
     width: 3.75vw;
     height: auto;
@@ -400,6 +404,9 @@ nav {
     padding: 1vw;
     text-align: center;
     transition: all 0.7s;
+    position: sticky; /* Ensure this is set */
+    top: 0; /* Add this line */
+    z-index: 1000; /* Optional: set a z-index */
 }
 header {
     background-color: #1A1A1B;
