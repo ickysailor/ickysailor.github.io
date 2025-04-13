@@ -230,7 +230,7 @@ h3 {
 /* ================= TEXT ================= */
 b {
     font-family: "opensansbold";
-    color: #1A1A1B;
+    color: #81D7D3;
 }
 
 p {
@@ -404,9 +404,9 @@ nav {
     padding: 1vw;
     text-align: center;
     transition: all 0.7s;
-    position: sticky; /* Ensure this is set */
-    top: 0; /* Add this line */
-    z-index: 1000; /* Optional: set a z-index */
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
 }
 header {
     background-color: #1A1A1B;
@@ -520,9 +520,8 @@ dot {
     }
     
     article {
-        padding: 12vw 6vw;
+        padding: 12vw 0vw;
         max-width: 90%;
-        outline-offset: -4vw;
     }
     section {
     padding: 12vw 6vw;
