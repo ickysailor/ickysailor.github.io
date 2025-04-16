@@ -244,7 +244,7 @@ p {
 
 ul {
     font-size: 2vh;
-    font-family: "opensanssemibold";
+    font-family: "opensanssemibold"!important;
     line-height: 1.8vw;
     word-spacing: .25vw;
     text-transform: uppercase;
