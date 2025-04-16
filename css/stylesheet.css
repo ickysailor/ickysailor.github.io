@@ -352,7 +352,18 @@ a.nav {
 a.nav:hover {
     color: #55a49f;
 }
+a.prjct
+	{    
+  font-size: 1.75vh!important;
+  text-transform: uppercase;
+  color: #55a49f;
+  transition: all 0.7s;
+	}
 
+a.prjct:hover
+	{    
+  color: #1a1a1b;
+	}
 /* ================= IMAGES ================= */
 img {
     padding: 0;
@@ -394,6 +405,7 @@ body {
     font-size: 3vh;
     line-height: 1.15;
     word-spacing: 1.5vw;
+	letter-spacing: .02vw;
 }
 
 nav {
