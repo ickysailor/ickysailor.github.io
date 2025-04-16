@@ -29,7 +29,8 @@
     src: url("PlayfairDisplay-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
-}s
+}
+
 @font-face {
     font-family: "Playfair Display";
     src: url("PlayfairDisplay-Italic.ttf") format("truetype");
@@ -228,7 +229,7 @@ h3 {
 
 /* ================= TEXT ================= */
 strong {
-    font-family: "opensanssemibold";
+    font-family: "opensanssemibold"!important;
 }
 
 p {
