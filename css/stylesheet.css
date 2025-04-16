@@ -10,9 +10,10 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "opensanssemibold2";
-    src: url("OpenSans-SemiBold2-webfont.woff") format("woff");
-    font-style: normal;
+  font-family: "OpenSans-Semibold";
+  src: url("OpenSans-Semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
 }
 @font-face {
     font-family: "opensansbold";
@@ -244,7 +245,7 @@ p {
 
 ul {
     font-size: 2vh;
-    font-family: "opensanssemibold2"!important;
+    font-family: "OpenSans-Semibold"!important;
     line-height: 1.8vw;
     word-spacing: .25vw;
     text-transform: uppercase;
@@ -396,7 +397,7 @@ body {
 }
 
 nav {
-    font-family: "opensanssemibold2";
+    font-family: "OpenSans-Semibold";
     background: linear-gradient(45deg, #ffffff -30%, #81D7D3);
     color: #1A1A1B;
     margin: auto;
