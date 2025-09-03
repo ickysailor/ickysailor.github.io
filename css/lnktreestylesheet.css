@@ -73,9 +73,9 @@ btn
 	padding: 20px;
 	max-width: 80%;
 	min-height: .5vh;
- 	border: 3px solid #94F3E4;
+ 	border: 2px solid #1A1A1B;
 	border-radius: 24px;
-	box-shadow: .75vh .75vh #81D7D3;
+	box-shadow: .25vh .25vh #1A1A1B;
 	transition: all 0.7s;
 }
 btn:hover {
