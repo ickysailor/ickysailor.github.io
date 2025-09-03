@@ -55,7 +55,8 @@ body {
 	font-size: 4vh;
 	line-height: 1.2;
 	font-weight: 600;
-	word-spacing: 1.5vw;
+	word-spacing: .25vw;
+    letter-spacing: .25vw;
 }
 
 nav {	
@@ -81,25 +82,28 @@ btnblock {
 }
 btn
 {
-	background-color: #ffffff;
+/*	background-color: #ffffff;*/
+	background: linear-gradient(180deg, #ffffff 50%, #81D7D3 85%, #33A39D);
 	color: #94F3E4;
 	vertical-align: middle;
 	position: relative;
 	display: block;
-	margin-left: auto;
-	margin-top: 6vh;
-	margin-right: auto;
-	padding: 20px;
-	max-width: 50%;
+/*	margin-left: auto;
+	margin-top: 3.5vh;
+	margin-right: auto;*/
+	margin: 2vh auto 2vh auto;
+	padding: 25px;
+	max-width: 75%;
 	min-height: .5vh;
- 	border: 6px solid #94F3E4;
+/* 	border: 6px solid #94F3E4;*/
 	border-radius: 24px;
-	box-shadow: .75vh .75vh #37AA9C;
+/*	box-shadow: .75vh .75vh #37AA9C;*/
 	transition: all 0.7s;
 }
 btn:hover {
 	transform: scale(1.2);
 	transition: all 0.7s;
+/*	background-color: #ffffff;*/
 }
 /*			================		SMALL MEDIA  		================	*/
 @media screen and (min-width: 1px) and (max-width: 1119px) {
