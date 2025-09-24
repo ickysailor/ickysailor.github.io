@@ -82,4 +82,9 @@ btn:hover {
 	transform: scale(1.2);
 	transition: all 0.7s;
 }
-	
+
+img.pfp {
+	border-radius: 50%;
+	max-width: 50%;
+	padding: 20px;
+}
