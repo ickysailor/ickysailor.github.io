@@ -123,7 +123,7 @@ header {
     min-height: 95vh;
 }
 .headerdrop {
-    padding-top: 26%;
+    padding-top: 48vh;
 }
 
 /* ================= ARTICLE ================= */
@@ -517,7 +517,7 @@ body.menu-open {
         min-height: 95vh;
     }
     .headerdrop {
-        padding-top: 22%;
+        padding-top: 38vh;
     }
     .samplerow {
         max-width: 40%!important;
@@ -568,7 +568,7 @@ body.menu-open {
         min-height: 35vh;
     }
     .headerdrop {
-        padding-top: 14%!important;
+        padding-top: 9vh!important;
     }
     article span {
         padding: 0 0 10vh 0!important;
@@ -670,7 +670,7 @@ body.menu-open {
         min-height: 75vh;
     }
     .headerdrop {
-        padding-top: 120%!important;
+        padding-top: 45vh!important;
     }
     .video-bg {
         position: absolute;
