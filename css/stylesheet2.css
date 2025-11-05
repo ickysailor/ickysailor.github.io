@@ -1,0 +1,239 @@
+/* ================= FONT FAMILY ================= */
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Light-webfont.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Regular-webfont.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSansSemibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Bold-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-ExtraBold-webfont.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+}
+
+a {
+	color: #1A1A1B;
+	text-decoration: none;
+	transition: all 0.7s;
+}
+a:hover {
+	color: #37AA9C;
+	transition: all 0.7s;
+}
+/* ================= GENERAL ================= */
+html {
+	font-family: "Open Sans";
+	font-size: 16px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	overflow-x: hidden;
+}
+
+body {
+	background: linear-gradient(180deg, #ffffff 2%, #adf2ed, #81D7D3, #33A39D);
+	margin: 0px;
+	font-size: 1.25rem;
+	word-spacing: .5rem;
+    letter-spacing: 0.015em;
+	line-height: 1.2;
+	min-height: 100vh;
+}
+/* ================= BUTTONS ================= */
+pfpblock { 
+position: relative; 
+display: block; 
+margin: auto; 
+padding-top: 4vw; 
+padding-bottom: 4vw; 
+font-weight: 800; 
+width: 100%; 
+min-height: 1vh; 
+text-align: center; }
+
+btnblock {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+	margin: auto;
+	padding-bottom: 4vw;
+	font-weight: 800;
+	width: 100%;
+	min-height: 1vh;
+	text-align: center;
+}
+btn
+{
+	background-color: #ffffff;
+	color: #94F3E4;
+	vertical-align: middle;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	min-width: 80%;
+	min-height: .5vh;
+ 	border: 2px solid #1A1A1B;
+	border-radius: 24px;
+	box-shadow: .25vh .25vh #1A1A1B;
+	transition: all 0.7s;
+}
+btn:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+/* ================= IMG ================= */
+.pfp {
+	border-radius: 50%;
+	border: solid 4px #ffffff;
+	max-width: 25%;
+	max-height: 25%;
+}
+
+socials img {
+	max-width: 4vw;
+	padding: 2vw 2vw 0;
+	filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.15));
+}
+
+socials img:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+
+.logo {
+	max-width: 4vw;
+	position: absolute;
+	top: 2vw;
+	right: 8vw;
+	z-index: 5;
+	transition: all 0.7s;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+
+/* ================= DESC ================= */
+p {
+	padding: 2vw 4vw 0;
+	font-size: 1.25rem;
+	font-weight: 600;
+	word-spacing: .25rem;
+	text-transform: none;
+	text-wrap: pretty;
+}
+/* ================= MOBILE 992  ================= */
+
+@media screen and (max-width: 992px) {
+	
+/* ================= BUTTONS ================= */
+pfpblock { 
+position: relative; 
+display: block; 
+margin: auto; 
+padding-top: 8vw; 
+padding-bottom: 8vw; 
+font-weight: 800; 
+width: 100%; 
+min-height: 1vh; 
+text-align: center; }
+
+btnblock {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+	margin: auto;
+	padding-bottom: 8vw;
+	font-weight: 800;
+	width: 100%;
+	min-height: 1vh;
+	text-align: center;
+}
+btn
+{
+	background-color: #ffffff;
+	color: #94F3E4;
+	vertical-align: middle;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	min-width: 80%;
+	min-height: .5vh;
+ 	border: 2px solid #1A1A1B;
+	border-radius: 24px;
+	box-shadow: .25vh .25vh #1A1A1B;
+	transition: all 0.7s;
+}
+btn:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+/* ================= IMG ================= */
+.pfp {
+	border-radius: 50%;
+	border: solid 4px #ffffff;
+	min-width: 60%;
+}
+
+socials img {
+	max-width: 8vw;
+	padding: 2vw 2vw 0;
+	filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.15));
+}
+
+socials img:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+
+.logo {
+	max-width: 11vw;
+	position: absolute;
+	top: 4vw;
+	right: 4vw;
+	z-index: 5;
+	transition: all 0.7s;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+
+/* ================= DESC ================= */
+p {
+	padding: 0 4vw;
+	font-size: .95rem;
+	font-weight: 600;
+	word-spacing: .25rem;
+	text-transform: none;
+	text-wrap: pretty;
+}
+}
