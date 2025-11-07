@@ -793,6 +793,24 @@ body.menu-open {
     }
 	/* ================= IG Fix ================= */
 .instagram-browser header {
-	 min-height: 74dvh;
-}
+	 min-height: 79dvh;
+	 position: relative;
+     overflow: hidden;
+	
+	}
+	  .instagram-browser .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    z-index: 0;
+  }
+
+  .instagram-browser .headerdrop {
+    position: relative;
+    z-index: 1;  
+  }
 }
