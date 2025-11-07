@@ -480,10 +480,9 @@ body.menu-open {
   touch-action: none !important;
 }
 /* ================= IG Fix ================= */
-.instagram-browser header,
-.instagram-browser .nav-links {
-  min-height: 100%;
-  height: auto;
+.instagram-browser header {
+  min-height: 100dvh;
+  min-height: 120%;
 }
 /* ================================== RESPONSIVE MEDIA ================================== */
 /* ================================== THE DEFAULT IS 2560 x 1440 ================================== */
