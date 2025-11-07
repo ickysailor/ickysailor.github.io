@@ -796,9 +796,11 @@ body.menu-open {
 	 min-height: 79dvh;
 	 position: relative;
      overflow: hidden;
-	
 	}
-	  .instagram-browser .video-bg {
+	.instagram-browser h1 {
+	 width: 90%;
+	}
+  .instagram-browser .video-bg {
     position: absolute;
     top: 0;
     left: 0;
