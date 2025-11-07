@@ -9,12 +9,9 @@ window.logCustom = function(msg) {
 // Viewport Fix
 // ---------------------------
 function setRealViewportHeight() {
-  const vh = window.visualViewport ? window.visualViewport.height * 0.01 : window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
-window.addEventListener('resize', setRealViewportHeight);
-window.addEventListener('orientationchange', setRealViewportHeight);
-setRealViewportHeight();
 
 // ---------------------------
 // DOM
