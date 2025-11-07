@@ -479,11 +479,7 @@ body.menu-open {
   overscroll-behavior: none !important;
   touch-action: none !important;
 }
-/* ================= IG Fix ================= */
-.instagram-browser header {
-  min-height: 100dvh;
-  min-height: 120%;
-}
+
 /* ================================== RESPONSIVE MEDIA ================================== */
 /* ================================== THE DEFAULT IS 2560 x 1440 ================================== */
 /* ================= STANDARD DESKTOP 1920 x 1080 ================= */
@@ -795,4 +791,7 @@ body.menu-open {
         max-width: 90%!important;
         padding:0!important;
     }
+	/* ================= IG Fix ================= */
+.instagram-browser header {
+}
 }
