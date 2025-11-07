@@ -553,10 +553,10 @@ body.menu-open {
         font-size: 1.75rem;
     }
     article, footer {
-        padding: 4dvh 6vw;
+        padding: 4vh 6vw;
     }
     section {
-        padding: 6dvh 6vw;
+        padding: 6vh 6vw;
     }
     div:not(.desktop-links):not(.nav-links):not(.menu-icon) {
         padding: 0;
@@ -565,17 +565,17 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: 35dvh;
+        min-height: 35vh;
     }
     .headerdrop {
-        padding-top: 9dvh!important;
+        padding-top: 9vh!important;
     }
     article span {
-        padding: 0 0 10dvh 0!important;
+        padding: 0 0 10vh 0!important;
     }
     aside {
         min-width: 50%!important;
-        margin: -10dvh auto!important;
+        margin: -10vh auto!important;
     }
     aside span {
         margin: auto!important;
@@ -589,12 +589,12 @@ body.menu-open {
     }
     .row1 {
         gap: 1vw;
-        padding-top: 6dvh;
+        padding-top: 6vh;
     }
     .slideshow-container {
         flex-direction: column;
         align-items: center;
-        margin-top: 6dvh;
+        margin-top: 6vh;
     }
     .slideshow-container > div {
         flex-basis: 100% !important;
@@ -613,7 +613,7 @@ body.menu-open {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100dvh;
+        height: 100vh;
         object-fit: cover;
         object-position: right bottom;
         transform: none;
@@ -648,13 +648,13 @@ body.menu-open {
         word-spacing: .25rem;
     }
     section, article, footer {
-        padding: 4dvh 6vw!important;
+        padding: 4vh 6vw!important;
     }
     div:not(.desktop-links):not(.nav-links):not(.menu-icon) {
-        padding: 4.5dvh 0;
+        padding: 4.5vh 0;
     }
     footer div {
-        padding: .25dvh 0 !important;
+        padding: .25vh 0 !important;
     }
     footer {
         gap: 5vw;
@@ -667,27 +667,27 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: 75dvh;
+        min-height: 75vh;
     }
     .headerdrop {
-        padding-top: 45dvh!important;
+        padding-top: 45vh!important;
     }
     .video-bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100dvh;
+        height: 100vh;
         object-fit: cover;
         object-position: center bottom;
         transform: none;
     }
     article span {
-        padding: 0 0 10dvh 0!important;
+        padding: 0 0 10vh 0!important;
     }
     aside {
         min-width: 80%!important;
-        margin: -8dvh auto!important;
+        margin: -8vh auto!important;
     }
     aside span {
         padding: 0!important;
@@ -724,9 +724,9 @@ body.menu-open {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 105dvh;
+        height: 105vh;
         background-color: #000000;
-		margin-top: -8dvh;
+		margin-top: -8vh;
         gap: 0;
         opacity: 0;
         transform: translateY(-100%);
@@ -738,7 +738,7 @@ body.menu-open {
         font-size: 1.25rem;
         color: #ffffff;
         text-align: center;
-		padding: 2dvh 0;
+		padding: 2vh 0;
         transition: all 0.3s ease;
     }
     .nav-links.active {
@@ -752,7 +752,7 @@ body.menu-open {
         color: #1A1A1B;
     }
     p {
-        padding: 3dvh 0 0 0!important;
+        padding: 3vh 0 0 0!important;
 		word-spacing: .4rem;
     }
     article span {
@@ -768,7 +768,7 @@ body.menu-open {
     .slideshow-container {
         flex-direction: column;
         align-items: center;
-        margin-top: 5dvh;
+        margin-top: 5vh;
     }
     ul {
         padding: 0;
@@ -784,8 +784,8 @@ body.menu-open {
     .row1 {
         flex-direction: column;
         align-items: center;
-        margin-top: 5dvh;
-        gap: 3dvh;
+        margin-top: 5vh;
+        gap: 3vh;
     }
     .samplerow {
         max-width: 90%!important;
