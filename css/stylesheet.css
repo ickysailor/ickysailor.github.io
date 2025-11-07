@@ -118,12 +118,12 @@ header {
     background-color: #000000;
     color: #ffffff;
     animation: fadeInUp 0.8s ease-in forwards;
-    padding: 6.5vh 6vw;
+    padding: calc(var(--vh, 1vh) * 6.5) 6vw;
     margin: auto;
-    min-height: 95vh;
+	min-height: calc(var(--vh, 1vh) * 95);
 }
 .headerdrop {
-    padding-top: 48vh;
+	padding-top: calc(var(--vh, 1vh) * 48);
 }
 
 /* ================= ARTICLE ================= */
@@ -133,7 +133,7 @@ article {
     opacity: 0;
     transform: translateY(50%);
     transition: all 2s cubic-bezier(0.22, 1, 0.36, 1);
-    padding: 6.5vh 6vw;
+    padding: calc(var(--vh, 1vh) * 6.5) 6vw;
     margin: auto;
     position: relative;
     display: flex;
@@ -144,12 +144,12 @@ article {
 article span {
     width: 75%;
     margin-left: 25%;
-    padding-bottom: 14vh;
+    padding-bottom: calc(var(--vh, 1vh) * 14);
 }
 .impact span {
     margin-left: 0!important;
     margin-right: 25%!important;
-    padding-bottom: 14vh;
+    padding-bottom: calc(var(--vh, 1vh) * 14);
 }
 
 /* ================= ASIDE ================= */
@@ -158,7 +158,7 @@ aside {
     color: #ffffff;
     min-width: 50%;
     max-width: 50%;
-    max-height: 30vh;
+    max-height: calc(var(--vh, 1vh) * 30);
     line-height: 1;
     text-align: center;
     opacity: 0;
@@ -168,7 +168,7 @@ aside {
     position: absolute;
     flex-direction: column;
 	justify-content: center;
-    margin: -13vh auto !important;
+    margin: -12vh auto !important;
     z-index: 10;
 }
 aside span {
@@ -193,7 +193,7 @@ aside span:hover {
 section {
     background: linear-gradient(-15deg, #adf2ed 35%, #81D7D3);
     font-weight: 800;
-    padding: 6.5vh 6vw;
+    padding: calc(var(--vh, 1vh) * 6.5) 6vw;
     opacity: 0;
     transform: translateY(50%);
     transition: all 2s cubic-bezier(0.22, 1, 0.36, 1);
@@ -202,7 +202,7 @@ section {
     display: block;
 }
 section span {
-    padding-top: 4vh;
+    padding-top: calc(var(--vh, 1vh) * 4);
     text-align: center;
 }
 .container {
@@ -226,7 +226,7 @@ section span {
     justify-content: center;
     gap: 3vw;
     margin: 0 auto;
-    padding: 12vh 0;
+    padding: calc(var(--vh, 1vh) * 12) 0;
 }
 
 /* ================= FOOTER ================= */
@@ -234,7 +234,7 @@ footer {
     background-color: #1A1A1B;
     width: 100%;
     color: #ffffff;
-    padding: 6.5vh 6vw;
+    padding: calc(var(--vh, 1vh) * 6.5) 6vw;
     margin: auto;
     position: relative;
     display: flex;
@@ -244,7 +244,7 @@ footer {
 }
 footer div {
     flex: 1;
-    padding: 0.5vh 0;
+    padding: calc(var(--vh, 1vh) * .5) 0;
 }
 .column1 {
     text-align: right;
@@ -263,7 +263,7 @@ h1 {
     position: absolute;
     width: 30vw;
     margin: auto;
-    padding: 0 0 4vh 0;
+    padding: 0 0 calc(var(--vh, 1vh) * 4) 0;
 }
 h1 strong {
     color: #81d7d3;
@@ -349,7 +349,7 @@ p {
     text-transform: none;
     text-wrap: pretty;
     line-height: 1.6;
-    padding: 2vh 0 0 0.25vw;
+    padding: calc(var(--vh, 1vh) * 2) 0 0 0.25vw;
 }
 article p {
     padding-right: .5vw;
@@ -380,7 +380,7 @@ ul {
 }
 li {
     background-color: #81D7D3;
-    margin: 0 0 1.5vh 0;
+    margin: 0 0 calc(var(--vh, 1vh) * 1.5) 0;
     transition: all 0.7s;
     padding: 0.1vw 0;
 }
@@ -410,7 +410,7 @@ img {
     height: auto;
     display: block;
     padding: 0;
-    margin: 12vh 0 6.5vh 0;
+    margin: calc(var(--vh, 1vh) * 12) 0 calc(var(--vh, 1vh) * 6.5) 0;
     filter: grayscale(100%) contrast(1.2) brightness(1);
     transition: filter 0.8s ease, transform 0.8s ease, opacity 1s ease-in-out;
     opacity: 1;
@@ -422,7 +422,7 @@ img {
 .samplerow {
     max-width: 60%;
     height: auto;
-    padding: 4vh 0;
+    padding: calc(var(--vh, 1vh) * 4) 0;
     display: block;
     filter: grayscale(100%) contrast(1.3) brightness(1);
     transition: filter 0.8s ease, transform 0.8s ease;
@@ -514,10 +514,10 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: 95vh;
+        min-height: calc(var(--vh, 1vh) * 95);
     }
     .headerdrop {
-        padding-top: 38vh;
+        padding-top: calc(var(--vh, 1vh) * 38);
     }
     .samplerow {
         max-width: 40%!important;
@@ -553,10 +553,10 @@ body.menu-open {
         font-size: 1.75rem;
     }
     article, footer {
-        padding: 4vh 6vw;
+        padding: calc(var(--vh, 1vh) * 4) 6vw;
     }
     section {
-        padding: 6vh 6vw;
+        padding: calc(var(--vh, 1vh) * 6) 6vw;
     }
     div:not(.desktop-links):not(.nav-links):not(.menu-icon) {
         padding: 0;
@@ -565,17 +565,17 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: 35vh;
+        min-height: calc(var(--vh, 1vh) * 35);
     }
     .headerdrop {
-        padding-top: 9vh!important;
+        padding-top: calc(var(--vh, 1vh) * 9)!important;
     }
     article span {
-        padding: 0 0 10vh 0!important;
+        padding: 0 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
         min-width: 50%!important;
-        margin: -10vh auto!important;
+        margin: calc(var(--vh, 1vh) * -10) auto!important;
     }
     aside span {
         margin: auto!important;
@@ -589,12 +589,12 @@ body.menu-open {
     }
     .row1 {
         gap: 1vw;
-        padding-top: 6vh;
+        padding-top: calc(var(--vh, 1vh) * 6);
     }
     .slideshow-container {
         flex-direction: column;
         align-items: center;
-        margin-top: 6vh;
+        margin-top: calc(var(--vh, 1vh) * 6);
     }
     .slideshow-container > div {
         flex-basis: 100% !important;
@@ -613,7 +613,7 @@ body.menu-open {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         object-fit: cover;
         object-position: right bottom;
         transform: none;
@@ -648,13 +648,13 @@ body.menu-open {
         word-spacing: .25rem;
     }
     section, article, footer {
-        padding: 4vh 6vw!important;
+        padding: calc(var(--vh, 1vh) * 4) 6vw!important;
     }
     div:not(.desktop-links):not(.nav-links):not(.menu-icon) {
-        padding: 4.5vh 0;
+        padding: calc(var(--vh, 1vh) * 4.5) 0;
     }
     footer div {
-        padding: .25vh 0 !important;
+        padding: calc(var(--vh, 1vh) * .25) 0 !important;
     }
     footer {
         gap: 5vw;
@@ -667,27 +667,27 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: 75vh;
+        min-height: calc(var(--vh, 1vh) * 75);
     }
     .headerdrop {
-        padding-top: 45vh!important;
+        padding-top: calc(var(--vh, 1vh) * 45)!important;
     }
     .video-bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         object-fit: cover;
         object-position: center bottom;
         transform: none;
     }
     article span {
-        padding: 0 0 10vh 0!important;
+        padding: 0 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
         min-width: 80%!important;
-        margin: -8vh auto!important;
+        margin: calc(var(--vh, 1vh) * -8) auto!important;
     }
     aside span {
         padding: 0!important;
@@ -724,9 +724,9 @@ body.menu-open {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 105vh;
+        height: calc(var(--vh, 1vh) * 105);
         background-color: #000000;
-		margin-top: -8vh;
+		margin-top: calc(var(--vh, 1vh) * -8);
         gap: 0;
         opacity: 0;
         transform: translateY(-100%);
@@ -738,7 +738,7 @@ body.menu-open {
         font-size: 1.25rem;
         color: #ffffff;
         text-align: center;
-		padding: 2vh 0;
+		padding: calc(var(--vh, 1vh) * 2) 0;
         transition: all 0.3s ease;
     }
     .nav-links.active {
@@ -752,7 +752,7 @@ body.menu-open {
         color: #1A1A1B;
     }
     p {
-        padding: 3vh 0 0 0!important;
+        padding: calc(var(--vh, 1vh) * 3) 0 0 0!important;
 		word-spacing: .4rem;
     }
     article span {
@@ -768,7 +768,7 @@ body.menu-open {
     .slideshow-container {
         flex-direction: column;
         align-items: center;
-        margin-top: 5vh;
+        margin-top: calc(var(--vh, 1vh) * 5);
     }
     ul {
         padding: 0;
@@ -784,8 +784,8 @@ body.menu-open {
     .row1 {
         flex-direction: column;
         align-items: center;
-        margin-top: 5vh;
-        gap: 3vh;
+        margin-top: calc(var(--vh, 1vh) * 5);
+        gap: calc(var(--vh, 1vh) * 3);
     }
     .samplerow {
         max-width: 90%!important;

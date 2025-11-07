@@ -1,13 +1,23 @@
 var customMessage = "Hi! Funny seeing you here. My landing page at www.ickysailor.com is manually coded. Then I import it into shop.ickysailor.com, which is wordpress based."; 
 console.log(customMessage);
 
-// Optional: function to log messages dynamically from console
 window.logCustom = function(msg) {
     console.log(msg);
 };
 
 // ---------------------------
-// Wait for DOM to load
+// Viewport Fix
+// ---------------------------
+function setRealViewportHeight() {
+  const vh = window.visualViewport ? window.visualViewport.height * 0.01 : window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+window.addEventListener('resize', setRealViewportHeight);
+window.addEventListener('orientationchange', setRealViewportHeight);
+setRealViewportHeight();
+
+// ---------------------------
+// DOM
 // ---------------------------
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -26,7 +36,9 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(elements[j]);
     }
 
-    // -------- Menu Scroll Lock --------
+// ---------------------------
+// Freeze! Mobile Menu
+// ---------------------------
     const menuIcon = document.querySelector('.menu-icon');
     const navLinks = document.querySelector('.nav-links');
     let locked = false;
@@ -86,7 +98,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // -------- Slideshow --------
+// ---------------------------
+// Slideshow
+// ---------------------------
     const imgEl = document.getElementById("slideshow");
     const images = [
         "img/imgsample1.webp",
