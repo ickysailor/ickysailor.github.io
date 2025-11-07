@@ -13,6 +13,10 @@ function setRealViewportHeight() {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
 
+if (navigator.userAgent.includes('Instagram')) {
+  document.documentElement.classList.add('instagram-browser');
+}
+
 // ---------------------------
 // DOM
 // ---------------------------
