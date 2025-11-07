@@ -667,10 +667,10 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: calc(var(--vh, 1vh) * 75);
+        min-height: calc(var(--vh, 1vh) * 80);
     }
     .headerdrop {
-        padding-top: calc(var(--vh, 1vh) * 42)!important;
+        padding-top: calc(var(--vh, 1vh) * 48)!important;
     }
     .video-bg {
         position: absolute;
