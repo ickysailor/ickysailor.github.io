@@ -793,6 +793,6 @@ body.menu-open {
     }
 	/* ================= IG Fix ================= */
 .instagram-browser header {
-	 min-height: 174dvh;
+	 min-height: 100dvh;
 }
 }
