@@ -670,7 +670,7 @@ body.menu-open {
         min-height: calc(var(--vh, 1vh) * 75);
     }
     .headerdrop {
-        padding-top: calc(var(--vh, 1vh) * 45)!important;
+        padding-top: calc(var(--vh, 1vh) * 42)!important;
     }
     .video-bg {
         position: absolute;
@@ -683,7 +683,7 @@ body.menu-open {
         transform: none;
     }
     article span {
-        padding: 0 0 calc(var(--vh, 1vh) * 10) 0!important;
+        padding: calc(var(--vh, 1vh) * 4) 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
         min-width: 80%!important;
