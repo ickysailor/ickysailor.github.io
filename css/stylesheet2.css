@@ -49,7 +49,7 @@ html {
 }
 
 body {
-	background: linear-gradient(180deg, #ffffff 2%, #adf2ed, #81D7D3, #33A39D);
+	background-color: #1A1A1B;
 	margin: 0px;
 	font-size: 1.25rem;
 	word-spacing: .5rem;
@@ -138,6 +138,7 @@ socials img:hover {
 
 /* ================= DESC ================= */
 p {
+	color: #ffffff;
 	padding: 2vw 4vw 0;
 	font-size: 1.25rem;
 	font-weight: 600;
@@ -188,7 +189,6 @@ btn
 	min-height: .5vh;
  	border: 2px solid #1A1A1B;
 	border-radius: 24px;
-	box-shadow: .25vh .25vh #1A1A1B;
 	transition: all 0.7s;
 }
 btn:hover {
@@ -198,7 +198,7 @@ btn:hover {
 /* ================= IMG ================= */
 .pfp {
 	border-radius: 50%;
-	border: solid 4px #ffffff;
+	border: solid 6px #ffffff;
 	min-width: 60%;
 }
 
@@ -231,7 +231,7 @@ socials img:hover {
 p {
 	padding: 0 4vw;
 	font-size: .95rem;
-	font-weight: 600;
+	font-weight: 700;
 	word-spacing: .25rem;
 	text-transform: none;
 	text-wrap: pretty;
