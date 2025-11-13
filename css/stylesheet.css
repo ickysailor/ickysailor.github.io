@@ -264,6 +264,7 @@ h1 {
     width: 30vw;
     margin: auto;
     padding: 0 0 calc(var(--vh, 1vh) * 4) 0;
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.75));
 }
 h1 strong {
     color: #81d7d3;
