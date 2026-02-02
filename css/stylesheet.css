@@ -489,11 +489,8 @@ body.menu-open {
     }
     h1 {
         font-size: 6.86rem;
-        width: 50vw;
+        width: 30vw;
     }
-	h1 span {
-    width: 30vw;
-	}
     h2 {
         font-size: 3rem;
         word-spacing: 2rem;
