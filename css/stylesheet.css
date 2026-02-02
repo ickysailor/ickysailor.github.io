@@ -269,9 +269,6 @@ h1 strong {
     color: #81d7d3;
     font-weight: 900;
 }
-h1 span {
-    width: 50vw;
-}
 h2 {
     display: inline-block;
     font-size: 3.5rem;
@@ -494,6 +491,9 @@ body.menu-open {
         font-size: 6.86rem;
         width: 50vw;
     }
+	h1 span {
+    width: 50vw;
+}
     h2 {
         font-size: 3rem;
         word-spacing: 2rem;
