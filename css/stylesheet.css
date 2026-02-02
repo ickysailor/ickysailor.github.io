@@ -492,8 +492,8 @@ body.menu-open {
         width: 50vw;
     }
 	h1 span {
-    width: 50vw;
-}
+    width: 30vw;
+	}
     h2 {
         font-size: 3rem;
         word-spacing: 2rem;
