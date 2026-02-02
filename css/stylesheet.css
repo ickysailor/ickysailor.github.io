@@ -261,7 +261,6 @@ h1 {
     letter-spacing: 0.05em;
     text-align: justify;
     position: absolute;
-    width: 30vw;
     margin: auto;
     padding: 0 0 calc(var(--vh, 1vh) * 4) 0;
 	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.75));
@@ -269,6 +268,9 @@ h1 {
 h1 strong {
     color: #81d7d3;
     font-weight: 900;
+}
+h1 span {
+    width: 50vw;
 }
 h2 {
     display: inline-block;
