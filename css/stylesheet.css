@@ -124,6 +124,8 @@ header {
 }
 .headerdrop {
 	padding-top: calc(var(--vh, 1vh) * 48);
+   display: flex;
+    flex-direction: column;
 }
 
 /* ================= ARTICLE ================= */
@@ -260,8 +262,7 @@ h1 {
     font-weight: 900;
     letter-spacing: 0.05em;
     text-align: justify;
-    position: absolute;
-    margin: auto;
+    margin: 0;
     padding: 0 0 calc(var(--vh, 1vh) * 4) 0;
 	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.75));
 }
@@ -269,6 +270,7 @@ h1 strong {
     color: #81d7d3;
     font-weight: 900;
 }
+
 h2 {
     display: inline-block;
     font-size: 3.5rem;
@@ -463,7 +465,7 @@ footer.show {
 h1 span {
     opacity: 0;
     transform: translateY(20px);
-    display: inline-block;
+    display: block;
     animation: fadeUp 1s forwards;
 }
 h1 span:nth-child(1) { animation-delay: 0.8s; }
@@ -488,7 +490,7 @@ body.menu-open {
     }
     h1 {
         font-size: 6.86rem;
-        width: 30vw;
+        width: 50vw;
     }
     h2 {
         font-size: 3rem;
