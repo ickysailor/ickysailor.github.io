@@ -673,7 +673,7 @@ body.menu-open {
         min-height: calc(var(--vh, 1vh) * 60);
     }
     .headerdrop {
-        padding-top: calc(var(--vh, 1vh) * 50)!important;
+        padding-top: calc(var(--vh, 1vh) * 44)!important;
     }
     .video-bg {
         position: absolute;
