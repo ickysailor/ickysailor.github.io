@@ -631,6 +631,7 @@ body.menu-open {
         font-size: 3rem;
         width: 100%;
 		word-spacing: .25rem;
+		padding: 0!important;
     }
     h2 {
         font-size: 1.5rem;
@@ -652,7 +653,7 @@ body.menu-open {
     section, article, footer {
         padding: calc(var(--vh, 1vh) * 4) 6vw!important;
     }
-    div:not(.desktop-links):not(.nav-links):not(.menu-icon) {
+    div:not(.desktop-links):not(.nav-links):not(.menu-icon):not(.headerdrop) {
         padding: calc(var(--vh, 1vh) * 4.5) 0;
     }
     footer div {
