@@ -670,7 +670,7 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: calc(var(--vh, 1vh) * 55);
+        min-height: calc(var(--vh, 1vh) * 65);
     }
     .headerdrop {
         padding-top: calc(var(--vh, 1vh) * 50)!important;
