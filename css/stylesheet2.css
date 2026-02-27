@@ -49,21 +49,45 @@ html {
 }
 
 body {
-	background-color: #1A1A1B;
+    background: linear-gradient(-15deg, #adf2ed 35%, #81D7D3);
 	margin: 0px;
-	font-size: 1.25rem;
-	word-spacing: .5rem;
-    letter-spacing: 0.015em;
-	line-height: 1.2;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    word-spacing: .125rem;
+    letter-spacing: 0.0175em;
 	min-height: 100vh;
 }
+
+.container {
+	max-width: 600px;
+	margin: auto;
+	background-color: #1A1A1B;
+	padding: 2vw;
+	border: 1px solid #000000;
+	outline: 6px solid #ffffff;
+}
+
+
+.logo {
+	max-width: 2.5vw;
+	z-index: 5;
+	transition: all 0.7s;
+	margin: 0 0 0 20.5vw;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+	transition: all 0.7s;
+}
+
+
 /* ================= BUTTONS ================= */
 pfpblock { 
 position: relative; 
 display: block; 
 margin: auto; 
-padding-top: 4vw; 
-padding-bottom: 4vw; 
+padding-top: 1vw; 
+padding-bottom: 1vw; 
 font-weight: 800; 
 width: 100%; 
 min-height: 1vh; 
@@ -76,7 +100,7 @@ btnblock {
     align-items: center;
     gap: 2vh;
 	margin: auto;
-	padding-bottom: 4vw;
+	padding-bottom: 2vw;
 	font-weight: 800;
 	width: 100%;
 	min-height: 1vh;
@@ -112,18 +136,20 @@ btn:hover {
 }
 div.pfp-wrapper
 	{ 
-	width: 20%;
+	width: 50%;
 	aspect-ratio: 1 / 1;
 	border-radius: 50%;
 	overflow: hidden;
 	border: 6px solid #ffffff;
 	margin: auto;
+	z-index: 100;
 	}
 
 socials img {
-	max-width: 4vw;
-	padding: 2vw 2vw 0;
+	max-width: 1.5vw;
+	padding: 0 .25vw 0;
 	filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.15));
+	transition: all 0.7s;
 }
 
 socials img:hover {
@@ -131,27 +157,16 @@ socials img:hover {
 	transition: all 0.7s;
 }
 
-.logo {
-	max-width: 4vw;
-	position: absolute;
-	top: 2vw;
-	right: 8vw;
-	z-index: 5;
-	transition: all 0.7s;
-}
-
-.logo:hover {
-	transform: scale(1.2);
-	transition: all 0.7s;
-}
 
 /* ================= DESC ================= */
 p {
 	color: #ffffff;
-	padding: 2vw 4vw 0;
+	padding-top: .25vw;
+	padding-bottom: .25vw;
 	font-size: 1.25rem;
-	font-weight: 600;
-	word-spacing: .25rem;
+	font-weight: 300;
+	letter-spacing: .035em;
+	word-spacing: .35rem;
 	text-transform: none;
 	text-wrap: pretty;
 }
@@ -238,9 +253,7 @@ socials img:hover {
 /* ================= DESC ================= */
 p {
 	padding: 0 4vw;
-	font-size: .95rem;
-	font-weight: 700;
-	word-spacing: .25rem;
+	font-size: 1.1rem;
 	text-transform: none;
 	text-wrap: pretty;
 }
