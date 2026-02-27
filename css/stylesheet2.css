@@ -65,14 +65,18 @@ body {
 	padding: 2vw;
 	border: 1px solid #000000;
 	outline: 6px solid #ffffff;
+	min-height: 100vh;
+	position: relative;
+
 }
 
-
 .logo {
+	position: absolute;
+	top: 1vw; 
+	right: 2vw;
 	max-width: 2.5vw;
 	z-index: 5;
 	transition: all 0.7s;
-	margin: 0 0 0 20.5vw;
 }
 
 .logo:hover {
@@ -133,6 +137,7 @@ btn:hover {
   height: 100%;
   object-fit: cover;
   display: block;
+  image-rendering: -webkit-optimize-contrast;
 }
 div.pfp-wrapper
 	{ 
@@ -143,6 +148,8 @@ div.pfp-wrapper
 	border: 6px solid #ffffff;
 	margin: auto;
 	z-index: 100;
+	transform: translateZ(0);
+    backface-visibility: hidden;
 	}
 
 socials img {
