@@ -72,8 +72,8 @@ body {
 
 .logo {
 	position: absolute;
-	top: 1vw; 
-	right: 2vw;
+	top: 2vw; 
+	right: 3vw;
 	max-width: 2.5vw;
 	z-index: 5;
 	transition: all 0.7s;
