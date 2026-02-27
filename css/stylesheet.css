@@ -670,10 +670,10 @@ body.menu-open {
         background-color: #000000;
         color: #ffffff;
         margin: auto;
-        min-height: calc(var(--vh, 1vh) * 40);
+		min-height: calc(var(--vh, 1vh) * 55) !important;
     }
     .headerdrop {
-        padding-top: calc(var(--vh, 1vh) * 45)!important;
+        padding-top: calc(var(--vh, 1vh) * 35)!important;
     }
     .video-bg {
         position: absolute;
