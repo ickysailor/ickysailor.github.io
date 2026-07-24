@@ -298,8 +298,7 @@ a {
 }
 a.aside {
     font-size: 3.5rem;
-    font-weight: 900;
-    word-spacing: 1rem;
+    font-weight: 700;
     color: #ffffff;
     position: relative;
     vertical-align: middle;
@@ -309,17 +308,16 @@ a.description_link {
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     text-decoration-thickness: 2px;
-    font-weight: 800;
+    font-weight: 700;
 	font-size: 1rem;
 	letter-spacing: 0.03em;
-    word-spacing: 2rem;
     color: #000000;
     position: relative;
     vertical-align: middle;
 }
 article a {
     color: #33A39D;
-    font-weight: 800;
+    font-weight: 700;
 	font-size: 1rem;
 	letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -349,8 +347,8 @@ aside strong {
 }
 p {
     font-weight: 600;
-    letter-spacing: 0.015em;
-    word-spacing: 0.5rem;
+	word-spacing: .125rem;
+    letter-spacing: 0.012em;
     text-transform: none;
     text-wrap: pretty;
     line-height: 1.6;
