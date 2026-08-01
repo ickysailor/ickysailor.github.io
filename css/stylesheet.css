@@ -673,6 +673,8 @@ body.menu-open {
         color: #ffffff;
         margin: auto;
 		min-height: calc(var(--vh, 1vh) * 70) !important;
+		overflow: hidden;
+
     }
     .headerdrop {
         padding-top: calc(var(--vh, 1vh) * 41)!important;
@@ -684,8 +686,10 @@ body.menu-open {
         width: 100vw;
         height: calc(var(--vh, 1vh) * 100);
         object-fit: cover;
-        object-position: center bottom;
+        object-position: 80%;
+		scale: 1.75;
         transform: none;
+		padding-bottom: 25vh;
     }
     article span {
         padding: calc(var(--vh, 1vh) * 4) 0 calc(var(--vh, 1vh) * 10) 0!important;
