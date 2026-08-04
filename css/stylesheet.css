@@ -135,7 +135,7 @@ article {
     opacity: 0;
     transform: translateY(50%);
     transition: all 2s cubic-bezier(0.22, 1, 0.36, 1);
-    padding: calc(var(--vh, 1vh) * 6.5) 6vw;
+    padding: calc(var(--vh, 1vh) * 6.5) 10vw;
     margin: auto;
     position: relative;
     display: flex;
