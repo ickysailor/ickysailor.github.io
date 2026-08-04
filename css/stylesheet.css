@@ -144,8 +144,8 @@ article {
     flex-direction: column;
 }
 article span {
-    width: 75%;
-    margin-left: 25%;
+    width: 65%;
+    margin-left: 35%;
     padding-bottom: calc(var(--vh, 1vh) * 14);
 }
 .impact span {
@@ -276,7 +276,7 @@ h2 {
     font-size: 3.5rem;
     font-weight: 900;
     letter-spacing: 0.05em;
-    word-spacing: 4rem;
+    word-spacing: 2rem;
     margin: 0;
     animation: header ease 2s;
     animation-iteration-count: 1;
@@ -391,8 +391,8 @@ li {
 li::before {
     content: "";
     display: inline-block;
-    width: 1.125vw;
-    height: 1.125vw;
+    width: 1vw;
+    height: 1vw;
     padding: 0 2vw;
     background-image: url("https://shop.ickysailor.com/wp-content/uploads/2025/10/list.svg");
     background-repeat: no-repeat;
@@ -511,6 +511,10 @@ body.menu-open {
     ul {
         font-size: 0.95rem;
     }
+	li::before {
+    width: 1.125vw;
+    height: 1.125vw;
+}
     a.aside {
         font-size: 3rem;
     }
