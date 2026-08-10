@@ -296,6 +296,11 @@ a {
     text-decoration: none;
     transition: all 0.8s;
 }
+
+p a:not(:has(.svg))::before {
+  content: "⟶		";
+}
+
 a.aside {
     font-size: 3.5rem;
     font-weight: 700;
