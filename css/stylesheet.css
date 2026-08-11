@@ -188,7 +188,9 @@ aside span:hover {
 .left {
     left: 0;
     margin: 0;
+	z-index: 20;
 }
+
 .right {
     right: 0;
     margin: 0;
@@ -306,6 +308,11 @@ a.aside {
     color: #ffffff;
     position: relative;
     vertical-align: middle;
+}
+.left a {
+    position: relative;
+    z-index: 21;
+    pointer-events: auto;
 }
 a.description_link {
     text-transform: uppercase;
@@ -700,17 +707,29 @@ body.menu-open {
         transform: none;
 		padding-bottom: 25vh;
 		z-index: 0;
+		pointer-events: none;
     }
     article span {
         padding: calc(var(--vh, 1vh) * 4) 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
-        min-width: 80%!important;
-        margin: calc(var(--vh, 1vh) * -8) auto!important;
+        min-width: 80% !important;
+        max-width: 80% !important;
+        height: calc(var(--vh, 1vh) * 16);
+        margin: calc(var(--vh, 1vh) * -8) 0 !important;
+        position: relative;
+        z-index: 20;
     }
     aside span {
         padding: 0!important;
 		margin: auto;
+    }
+	    .left {
+        left: 0!important;
+    }
+    .right {
+        right: 0!important;
+        margin-left: auto !important;
     }
     nav {
         justify-content: flex-end;
@@ -810,6 +829,7 @@ body.menu-open {
         max-width: 90%!important;
         padding:0!important;
     }
+	
 	/* ================= IG Fix ================= */
 .instagram-browser header {
 	 min-height: 79dvh;
