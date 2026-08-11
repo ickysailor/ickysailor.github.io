@@ -78,7 +78,7 @@ body {
 
 /* ================= NAV ================= */
 nav {
-    background-color: transparent;
+    background-color: transparent!important;
     letter-spacing: 0.08em;
     margin: auto;
     display: flex;
@@ -115,7 +115,6 @@ nav a:hover {
 
 /* ================= HEADER ================= */
 header {
-    background-color: #000000;
     color: #ffffff;
     animation: fadeInUp 0.8s ease-in forwards;
     padding: calc(var(--vh, 1vh) * 6.5) 6vw;
@@ -124,8 +123,12 @@ header {
 }
 .headerdrop {
 	padding-top: calc(var(--vh, 1vh) * 48);
-   display: flex;
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 100%;
+    position: relative;
 }
 
 /* ================= ARTICLE ================= */
@@ -457,7 +460,7 @@ section .svg {
     height: auto;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    z-index: -1;
+    z-index: 0;
 }
 
 /* ================= SHOW ANIMATION TRIGGER ================= */
@@ -524,7 +527,6 @@ body.menu-open {
         font-size: 3rem;
     }
     header {
-        background-color: #000000;
         color: #ffffff;
         margin: auto;
         min-height: calc(var(--vh, 1vh) * 95);
@@ -575,7 +577,6 @@ body.menu-open {
         padding: 0;
     }
     header {
-        background-color: #000000;
         color: #ffffff;
         margin: auto;
         min-height: calc(var(--vh, 1vh) * 35);
@@ -678,15 +679,16 @@ body.menu-open {
         width: 100%!important;
     }
     header {
-        background-color: #000000;
         color: #ffffff;
         margin: auto;
 		min-height: calc(var(--vh, 1vh) * 70) !important;
-		overflow: hidden;
+		overflow: visible;
+		position: relative;
 
     }
     .headerdrop {
         padding-top: calc(var(--vh, 1vh) * 41)!important;
+		position: relative;
     }
     .video-bg {
         position: absolute;
@@ -699,6 +701,7 @@ body.menu-open {
 		scale: 1.75;
         transform: none;
 		padding-bottom: 25vh;
+		z-index: 0;
     }
     article span {
         padding: calc(var(--vh, 1vh) * 4) 0 calc(var(--vh, 1vh) * 10) 0!important;
