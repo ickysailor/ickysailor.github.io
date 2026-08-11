@@ -669,6 +669,7 @@ body.menu-open {
     section, article, footer {
         padding: calc(var(--vh, 1vh) * 4) 6vw!important;
     }
+
     div:not(.desktop-links):not(.nav-links):not(.menu-icon):not(.headerdrop) {
         padding: calc(var(--vh, 1vh) * 4.5) 0;
     }
@@ -710,7 +711,7 @@ body.menu-open {
 		pointer-events: none;
     }
     article span {
-        padding: calc(var(--vh, 1vh) * 4) 0 calc(var(--vh, 1vh) * 10) 0!important;
+        padding: calc(var(--vh, 1vh) * 2) 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
         min-width: 80% !important;
