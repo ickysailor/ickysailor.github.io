@@ -542,8 +542,8 @@ body.menu-open {
     }
 }
 
-/* ================= TABLET ================= */
-@media screen and (max-width: 1280px) {
+/* ================= TABLET 1366 ================= */
+@media screen and (max-width: 1366px) {
     body {
         font-size: 1rem;
     }

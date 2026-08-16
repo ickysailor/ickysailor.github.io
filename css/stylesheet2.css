@@ -41,6 +41,7 @@ a:hover {
 }
 /* ================= GENERAL ================= */
 html {
+	margin: 0px;
 	font-family: "Open Sans";
 	font-size: 16px;
 	line-height: 1.2;
@@ -51,23 +52,32 @@ html {
 body {
     background: linear-gradient(-15deg, #adf2ed 35%, #81D7D3);
 	margin: 0px;
-    font-size: 1.25rem;
+	height: 100%;
+    font-size: 1rem;
     line-height: 1.2;
     word-spacing: .125rem;
     letter-spacing: 0.0175em;
-	min-height: 100vh;
 }
 
 .container {
-	max-width: 600px;
-	margin: auto;
-	background-color: #1A1A1B;
-	padding: 2vw;
-	border: 1px solid #000000;
-	outline: 6px solid #ffffff;
-	min-height: 100vh;
-	position: relative;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: auto;
+    background-color: #1A1A1B;
+    padding: 2vh 2vw;
+    min-height: 100dvh;
+    position: relative;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 32px 0 rgba(0, 0, 0, 0.19);
+}
 
+.align {
+	width: 100%;
+    min-height: calc(100dvh - 4vh);
+	margin: auto;
+	display: grid;
+	justify-items: center;
+	align-content: center;
+	grid-template-columns: 1fr;
 }
 
 .logo {
@@ -87,24 +97,23 @@ body {
 
 /* ================= BUTTONS ================= */
 pfpblock { 
-position: relative; 
-display: block; 
-margin: auto; 
-padding-top: 1vw; 
-padding-bottom: 1vw; 
-font-weight: 800; 
-width: 100%; 
-min-height: 1vh; 
-text-align: center; }
+	position: relative; 
+	display: grid;
+	margin: auto; 
+	padding: 0;
+	font-weight: 800; 
+	width: 100%; 
+	min-height: 1vh; 
+	text-align: center; 
+}
 
 btnblock {
 	position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: 2vh;
 	margin: auto;
-	padding-bottom: 2vw;
 	font-weight: 800;
 	width: 100%;
 	min-height: 1vh;
@@ -116,7 +125,6 @@ btn
 	color: #94F3E4;
 	vertical-align: middle;
 	position: relative;
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
@@ -136,7 +144,6 @@ btn:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
   image-rendering: -webkit-optimize-contrast;
 }
 div.pfp-wrapper
@@ -145,111 +152,131 @@ div.pfp-wrapper
 	aspect-ratio: 1 / 1;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 6px solid #ffffff;
+	border: 2px solid #ffffff;
 	margin: auto;
 	z-index: 100;
 	transform: translateZ(0);
     backface-visibility: hidden;
 	}
 
-socials img {
-	max-width: 1.5vw;
-	padding: 0 .25vw 0;
+.socials img {
+	max-width: 2.5vw;
+	padding: 0;
 	filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.15));
 	transition: all 0.7s;
 }
 
-socials img:hover {
+.socials img:hover {
 	transform: scale(1.2);
 	transition: all 0.7s;
 }
 
-
+.socials {
+	margin: 0 auto 1em; 
+	display: grid;
+	text-align: center; 
+	width: 70%;
+	grid-auto-flow: column;
+	grid-auto-columns: 1fr;
+	gap: .5em;
+}
 /* ================= DESC ================= */
 p {
 	color: #ffffff;
-	padding-top: .25vw;
-	padding-bottom: .25vw;
-	font-size: 1.25rem;
-	font-weight: 300;
-	letter-spacing: .035em;
-	word-spacing: .35rem;
-	text-transform: none;
-	text-wrap: pretty;
+	padding: .25vw 6vw;
+	font-size: 1rem;
+    font-weight: 400;
+	word-spacing: .125rem;
+    letter-spacing: 0.012em;
+    text-transform: none;
+    text-wrap: pretty;
+    line-height: 1.6;
 }
-/* ================= MOBILE 992  ================= */
-
-@media screen and (max-width: 992px) {
+/* ================= TABLET LANDSCAPE ================= */
+@media screen and (max-width: 1366px) {
 	
-/* ================= BUTTONS ================= */
-pfpblock { 
-position: relative; 
-display: block; 
-margin: auto; 
-padding-top: 8vw; 
-padding-bottom: 8vw; 
-font-weight: 800; 
-width: 100%; 
-min-height: 1vh; 
-text-align: center; }
-
+	html {
+	overflow: hidden;
+	}
+	
+/* ================= IMG ================= */
+	.logo {
+	max-width: 4vw;
+	}
+	
+	div.pfp-wrapper
+	{ 
+	width: 25%;
+	}
+	.socials img {
+	max-width: 3.5vw;
+}
+	
+/* ================= DESC ================= */
+p {
+	font-size: 1rem;
+}	
+.align {
+	 min-height: calc(100dvh);
+	}
+	
 btnblock {
-	position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 1vh;
+}
+}
+
+/* ================= TABLET PORTRAIT ================= */
+@media screen and (max-width: 1024px) {
+
+/* ================= IMG ================= */
+	.logo {
+	max-width: 7vw;
+	}
+	
+	div.pfp-wrapper
+	{ 
+	width: 50%;
+	}
+	.socials img {
+	max-width: 5vw;
+}
+	
+/* ================= DESC ================= */
+p {
+	font-size: 1.125rem;
+}
+	
+btnblock {
     gap: 2vh;
-	margin: auto;
-	padding-bottom: 8vw;
-	font-weight: 800;
-	width: 100%;
-	min-height: 1vh;
-	text-align: center;
 }
-btn
-{
-	background-color: #ffffff;
-	color: #94F3E4;
-	vertical-align: middle;
-	position: relative;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-	min-width: 80%;
-	min-height: .5vh;
- 	border: 2px solid #1A1A1B;
-	border-radius: 24px;
-	transition: all 0.7s;
+.align {
+	 min-height: calc(100dvh);
+	}
 }
-btn:hover {
-	transform: scale(1.2);
-	transition: all 0.7s;
-}
+
+/* ================= MOBILE 768  ================= */
+
+@media screen and (max-width: 768px) {
+	
 /* ================= IMG ================= */
 div.pfp-wrapper
 	{ 
-	width: 60%;
+	width: 30%;
 	}
 
-socials img {
-	max-width: 8vw;
-	padding: 3vw 2vw 0;
-	filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.15));
+.socials img {
+	max-width: 10vw;
 }
 
-socials img:hover {
+.socials img:hover {
 	transform: scale(1.2);
 	transition: all 0.7s;
 }
 
 .logo {
 	max-width: 11vw;
-	position: absolute;
 	top: 4vw;
 	right: 4vw;
-	z-index: 5;
-	transition: all 0.7s;
 }
 
 .logo:hover {
@@ -259,9 +286,12 @@ socials img:hover {
 
 /* ================= DESC ================= */
 p {
-	padding: 0 4vw;
-	font-size: 1.1rem;
-	text-transform: none;
-	text-wrap: pretty;
+	font-size: .875rem;
+}
+	.align {
+	min-height: calc(100dvh - 4vh);
+	}
+btnblock {
+    gap: 2vh;
 }
 }
