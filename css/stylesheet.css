@@ -542,6 +542,13 @@ body.menu-open {
     }
 }
 
+/* ================= TABLET LANDSCAPE ================= */
+@media screen and (max-width: 1366px) {
+	.logo {
+    width: 3.5vw!important;
+}
+}
+
 /* ================= TABLET ================= */
 @media screen and (max-width: 1024px) {
     body {
