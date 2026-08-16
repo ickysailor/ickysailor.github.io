@@ -544,24 +544,86 @@ body.menu-open {
 
 /* ================= TABLET LANDSCAPE ================= */
 @media screen and (max-width: 1366px) {
+	body {
+     font-size: 1rem;
+	 overflow-y: hidden;
+	}  
 	.logo {
     width: 3.5vw!important;
 }
+	h1 {
+    font-size: 3.86rem!important;
+    width: 100%!important;
+	margin-top: 8vh!important; 
+    }
+	
+	.headerdrop { 
+	position: relative;
+	padding-top: calc(var(--vh, 1vh) * 2)!important; 
+	}
+	
+	h2, h3 {
+    font-size: 1.75rem!important;
+    word-spacing: 2rem!important;
+  }
+	header {
+	position: relative;
+    color: #ffffff;
+    margin: auto;
+	max-width: 100%;
+    min-height: 10vh!important;
+	padding-bottom: 1.5vh!important; 
+  }
+    .video-bg {
+        position: absolute;
+		inset: 0 0 0 0;
+        top: -25vh;
+        left: 0;
+        max-width: 100%;
+        height: calc(var(--vh, 1vh) * 100);
+        object-fit: cover;
+        object-position: right bottom;
+        transform: none;
+		scale: 1;
+    }
+	article a, section a {
+	font-size: 1rem;
+	}
+	aside a {
+	font-size: 1.15rem!important;
+	}
+	aside .svg {
+	 width: 3vw!important; 
+	}
+	.sample {
+        max-width: 100%;
+    }
+    .samplerow {
+        max-width: 33%!important;
+    }
+    .row1 {
+        gap: 1vw;
+        padding-top: calc(var(--vh, 1vh) * 6);
+    }
 }
 
-/* ================= TABLET ================= */
+/* ================= TABLET PORTRAIT ================= */
 @media screen and (max-width: 1024px) {
-    body {
-        font-size: 1rem;
-    }
+
+	body { 
+	font-size: .825rem!important;
+	}
+	
     h1 {
         font-size: 4rem;
         width: 40vw;
     }
-    h2 {
-        font-size: 1.75rem;
-        word-spacing: 2rem;
+	
+    h2, h3 {
+    	font-size: 1.5rem!important;
+    	word-spacing: .5rem!important;
     }
+	
     .impact h2 {
         word-spacing: 3rem;
     }
@@ -574,8 +636,12 @@ body.menu-open {
     ul {
         font-size: 0.9rem;
     }
+	article a, section a  {
+	font-size: .825rem!important;
+	}
     a.aside {
-        font-size: 1.75rem;
+    	font-size: 1rem!important;
+   		word-spacing: .5rem!important;
     }
     article, footer {
         padding: calc(var(--vh, 1vh) * 4) 6vw;
@@ -583,8 +649,9 @@ body.menu-open {
     section {
         padding: calc(var(--vh, 1vh) * 6) 6vw;
     }
-    div:not(.desktop-links):not(.nav-links):not(.menu-icon) {
-        padding: 0;
+    div:not(.desktop-links):not(.nav-links):not(.menu-icon)
+	{
+    padding: 0;
     }
     header {
         color: #ffffff;
@@ -599,7 +666,8 @@ body.menu-open {
     }
     aside {
         min-width: 50%!important;
-        margin: calc(var(--vh, 1vh) * -10) auto!important;
+        margin: calc(var(--vh, 1vh) * -5) auto!important;
+		height: calc(var(--vh, 1vh) * 10);
     }
     aside span {
         margin: auto!important;
@@ -641,8 +709,12 @@ body.menu-open {
         object-fit: cover;
         object-position: right bottom;
         transform: none;
+		scale: 1!important;
     }
+	footer div {
+    padding: .5vh 0!important;
 }
+} 
 
 /* ================= MOBILE 768  ================= */
 @media screen and (max-width: 768px) {
