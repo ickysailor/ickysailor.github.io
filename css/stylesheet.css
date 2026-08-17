@@ -913,8 +913,6 @@ body.menu-open {
 	/* ================= IG Fix =================*/
 
   .instagram-browser .video-bg {
-    top: 0;
-    left: 0;
     object-position: 80% 10%!important;
   } 
 }
