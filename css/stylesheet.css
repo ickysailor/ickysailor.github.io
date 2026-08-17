@@ -726,7 +726,7 @@ body.menu-open {
         font-size: 2.8rem;
         width: 100%;
 		word-spacing: .25rem;
-		padding: 0!important;
+		padding: 0 0 2.25vh 0!important;
     }
     h2 {
         font-size: 1.5rem;
@@ -765,13 +765,13 @@ body.menu-open {
     header {
         color: #ffffff;
         margin: auto;
-		min-height: calc(var(--vh, 1vh) * 70)!important;
+		min-height: calc(var(--vh, 1vh) * 60)!important;
 		overflow: visible;
 		position: relative;
 
     }
     .headerdrop {
-        padding-top: calc(var(--vh, 1vh) * 41)!important;
+        padding-top: calc(var(--vh, 1vh) * 37.5)!important;
 		position: relative;
     }
     .video-bg {
@@ -780,7 +780,7 @@ body.menu-open {
         top: 0;
         left: 0;
         width: 100vw;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 100)!important;
         object-fit: cover;
         object-position: 80%;
 		scale: 1.75;
@@ -805,11 +805,11 @@ body.menu-open {
 		margin: auto;
     }
 	.left {
-        left: 0;
+        left: 0!important;
     }
     .right {
         right: 0!important;
-        margin-left: aut!important;
+        margin-left: auto!important;
     }
     nav {
         justify-content: flex-end;
@@ -877,7 +877,7 @@ body.menu-open {
         margin: 0!important;
         width: 100%!important;
     }
-    .svg {
+    aside .svg {
         width: 10vw;
     }
     section .svg {
