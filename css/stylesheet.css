@@ -726,7 +726,7 @@ body.menu-open {
         font-size: 2.8rem;
         width: 100%;
 		word-spacing: .25rem;
-		padding: 0;
+		padding: 0!important;
     }
     h2 {
         font-size: 1.5rem;
@@ -746,32 +746,32 @@ body.menu-open {
         word-spacing: .25rem;
     }
     section, article, footer {
-        padding: calc(var(--vh, 1vh) * 4) 6vw;
+        padding: calc(var(--vh, 1vh) * 4) 6vw!important;
     }
 
     div:not(.desktop-links):not(.nav-links):not(.menu-icon):not(.headerdrop) {
         padding: calc(var(--vh, 1vh) * 4.5) 0;
     }
     footer div {
-        padding: calc(var(--vh, 1vh) * .25) 0 ;
+        padding: calc(var(--vh, 1vh) * .25) 0!important;
     }
     footer {
         gap: 5vw;
     }
     .container div {
-        padding: 0;
-        width: 100%;
+        padding: 0!important;
+        width: 100%!important;
     }
     header {
         color: #ffffff;
         margin: auto;
-		min-height: calc(var(--vh, 1vh) * 70) ;
+		min-height: calc(var(--vh, 1vh) * 70)!important;
 		overflow: visible;
 		position: relative;
 
     }
     .headerdrop {
-        padding-top: calc(var(--vh, 1vh) * 41);
+        padding-top: calc(var(--vh, 1vh) * 41)!important;
 		position: relative;
     }
     .video-bg {
@@ -790,26 +790,26 @@ body.menu-open {
 		pointer-events: none;
     }
     article span {
-        padding: calc(var(--vh, 1vh) * 2) 0 calc(var(--vh, 1vh) * 10) 0;
+        padding: calc(var(--vh, 1vh) * 2) 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
-        min-width: 80%;
-        max-width: 80%;
+        min-width: 80%!important;
+        max-width: 80%!important;
         height: calc(var(--vh, 1vh) * 16);
-        margin: calc(var(--vh, 1vh) * -8) 0;
+        margin: calc(var(--vh, 1vh) * -8) 0!important;
         position: relative;
         z-index: 20;
     }
     aside span {
-        padding: 0;
+        padding: 0!important;
 		margin: auto;
     }
-	    .left {
+	.left {
         left: 0;
     }
     .right {
-        right: 0;
-        margin-left: auto;
+        right: 0!important;
+        margin-left: aut!important;
     }
     nav {
         justify-content: flex-end;
@@ -870,12 +870,12 @@ body.menu-open {
         color: #1A1A1B;
     }
     p {
-        padding: calc(var(--vh, 1vh) * 3) 0 0 0;
+        padding: calc(var(--vh, 1vh) * 3) 0 0 0!important;
 		word-spacing: .4rem;
     }
     article span {
-        margin: 0;
-        width: 100%;
+        margin: 0!important;
+        width: 100%!important;
     }
     .svg {
         width: 10vw;
@@ -906,8 +906,8 @@ body.menu-open {
         gap: calc(var(--vh, 1vh) * 3);
     }
     .samplerow {
-        max-width: 90%;
-        padding:0;
+        max-width: 90%!important;
+        padding:0!important;
     }
 	
 	/* ================= IG Fix ================= */
