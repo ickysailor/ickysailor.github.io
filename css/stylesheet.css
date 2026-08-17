@@ -790,7 +790,7 @@ body.menu-open {
 		pointer-events: none;
     }
     article span {
-        padding: calc(var(--vh, 1vh) * 2) 0 calc(var(--vh, 1vh) * 10) 0!important;
+        padding: 0 0 calc(var(--vh, 1vh) * 10) 0!important;
     }
     aside {
         min-width: 80%!important;
@@ -910,8 +910,8 @@ body.menu-open {
         padding:0!important;
     }
 	
-	/* ================= IG Fix ================= */
-.instagram-browser header {
+	/* ================= IG Fix =================
+	.instagram-browser header {
 	 min-height: 79dvh;
 	 position: relative;
      overflow: hidden;
@@ -934,5 +934,5 @@ body.menu-open {
   .instagram-browser .headerdrop {
     position: relative;
     z-index: 1;  
-  }
+  } */
 }
